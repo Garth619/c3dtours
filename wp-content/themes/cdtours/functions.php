@@ -593,3 +593,39 @@ function twentyten_get_gallery_images() {
 
 	return $images;
 }
+
+
+
+/* Custom */
+
+
+add_action( 'init', 'cptui_register_my_cpts_3dtourgallery' );
+function cptui_register_my_cpts_3dtourgallery() {
+	$labels = array(
+		"name" => __( '3D Tour Gallery', '' ),
+		"singular_name" => __( '3D Tour', '' ),
+		);
+
+	$args = array(
+		"label" => __( '3D Tour Gallery', '' ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "3dtourgallery", "with_front" => true ),
+		"query_var" => true,
+				
+		"supports" => array( "title", "editor", "thumbnail" ),				
+	);
+	register_post_type( "3dtourgallery", $args );
+
+// End of cptui_register_my_cpts_3dtourgallery()
+}
