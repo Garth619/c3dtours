@@ -3,6 +3,7 @@ Theme Name: C3Dtours
 Author: Grarrett Cullen (RCM)
 */
 
+/* Resets */
 
 * {
 	margin:0;
@@ -15,3 +16,42 @@ a img {border:none}
 
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
+
+/* Global */
+
+body {
+	background: grey;
+}
+
+
+/* Header */
+
+header, section, nav {
+	display:block;
+}
+
+
+header {
+	overflow:hidden;
+	background: #fff;
+	position: fixed;
+	top:0;
+	width: 100%;
+	a {
+		display:block;
+		.logo {
+			float:left;
+		}
+	}
+	.mobile_nav_wrapper {
+		float:right;
+		width:35px;
+		margin: 15px 12px 0 0;
+		.mobile_bars {
+			width:100%;
+			height:4px;
+			margin-bottom:3px;
+			background: #000;
+		}
+	}
+}

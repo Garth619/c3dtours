@@ -32,7 +32,26 @@
 </head>
 
 <body <?php body_class(); ?>>
+		
+		<header>
+			
+			<a href=""><img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/></a>
+			
+			<div class="mobile_nav_wrapper">
 				
+				<div class="mobile_bars"></div><!-- mobile_bars -->
+				<div class="mobile_bars"></div><!-- mobile_bars -->
+				<div class="mobile_bars"></div><!-- mobile_bars -->
+				
+			</div><!-- mobile_nav -->
+			
+		</header>	
+		
+		<section class="slideshow">
+			
+			
+			
+		</section><!-- slideshow -->
 				
 				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 			
