@@ -57,8 +57,13 @@
 			
 		</header>	
 		
-		<section class="slideshow">
-		<br/>	<br/>	<br/>	<br/>	hello
+		<section class="top_slideshow_mobile">
+		
+		<div class="top_slide">
+			
+			
+			
+		</div><!-- top_slide -->
 			
 			
 		</section><!-- slideshow -->

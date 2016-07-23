@@ -20,7 +20,6 @@ a img {border:none}
 /* Global */
 
 body {
-	background: grey;
 	font-family: "proxima-nova", sans-serif;
 }
 
@@ -54,5 +53,18 @@ header {
 			margin-bottom:3px;
 			background: #000;
 		}
+	}
+}
+
+
+/* Top Slidehow */
+
+
+.top_slideshow_mobile {
+	.top_slide {
+		background:url(images/banner.jpg) top center no-repeat;
+		background-size:cover;
+		width:100%;
+		height:576px;
 	}
 }
