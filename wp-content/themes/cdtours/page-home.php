@@ -79,11 +79,27 @@
 				
 			</div><!-- threed_gallery_slideshow -->
 			
-			<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+			<div class="threed_lower_content">
 			
-			<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+				<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+			
+				<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+			
+				<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+			
+			</div><!-- threed_lower_content -->
 			
 		</section><!-- 3D Gallery -->
+		
+		<section class="industries">
+			
+			
+			
+		</section><!-- industries -->
 				
 				
 			
