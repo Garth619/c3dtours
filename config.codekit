@@ -6345,6 +6345,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/cdtours\/images\/contact-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78201,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/contact-bg.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/contact-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/cdtours\/images\/industries.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

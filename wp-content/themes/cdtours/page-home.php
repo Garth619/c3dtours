@@ -120,6 +120,29 @@
 			</div><!-- floor_plan_content -->
 			
 		</section><!-- floor_plan -->
+		
+		<section class="contact_us">
+			
+			<div class="contact_left">
+				
+				<h1>contact us</h1>
+				
+				<div class="sub_headers">
+					
+					<span class="contact_or">or</span>
+					<span class="mybutton">Leave a Review</span>
+				
+				</div><!-- sub_headers -->
+				
+				
+			</div><!-- contact_left -->
+			
+			<div class="contact_right">
+				
+				
+			</div><!-- contact_right -->
+			
+		</section><!-- contact_us -->
 				
 				
 			

@@ -47,7 +47,7 @@ header {
 	position: fixed;
 	top:0;
 	width: 100%;
-	
+	z-index: 1;
 		.logo {
 			float:left;
 			margin-left:3px;
@@ -187,3 +187,37 @@ header {
 		}
 	}
 }
+
+
+/* Contact Us */
+
+.contact_us {
+	.contact_left {
+		padding:120px 30px;
+		background: url(images/contact-bg.jpg) top center no-repeat;
+		background-size:cover;
+		width:100%;
+		h1 {
+			font-style: normal;
+			font-weight: 300;
+			font-size:38px;
+			text-transform: uppercase;
+			letter-spacing:3px;
+			border-left:2px solid $orangelight;
+			padding: 45px 2px 10px 25px;
+			margin:0 0px 35px 0px;
+			color:#fff;
+		}
+		span.contact_or {
+			display: block;
+			text-align: center;
+		}
+		span.mybutton {
+			background: $orangelight;
+			display:inline-block;
+			
+			
+		}
+	}
+}
+
