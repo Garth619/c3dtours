@@ -76,7 +76,6 @@
 			<div class="threed_gallery_slideshow">
 				
 				
-				
 			</div><!-- threed_gallery_slideshow -->
 			
 			<div class="threed_lower_content">
@@ -100,6 +99,27 @@
 			
 			
 		</section><!-- industries -->
+		
+		<section class="floor_plan">
+			
+			<h1>Floor Plans</h1>
+			
+			<div class="floor_plan_content">
+				
+				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor elit, sed do eiusmod&nbsp;tempor</h2>
+				
+				<ul>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
+				</ul>
+			
+			</div><!-- floor_plan_content -->
+			
+		</section><!-- floor_plan -->
 				
 				
 			
