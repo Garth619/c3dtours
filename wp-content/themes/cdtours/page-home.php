@@ -63,9 +63,19 @@
 		
 			<div class="top_slide">
 			
+				<div class="slide_content">
+					
+					<h1>Lorem Ipsum</h1>	
+				
+				</div><!-- slide_content -->
 			
 			
 			</div><!-- top_slide -->
+			
+			<div class="slide_tabs">
+				
+				
+			</div><!-- slide_tabs -->
 			
 		</section><!-- slideshow -->
 		
