@@ -143,10 +143,21 @@
 			
 			<div class="contact_right">
 				
+				<div class="form_wrapper">
+					
+					
+					
+				</div><!--form_wrapper -->
+				
 				
 			</div><!-- contact_right -->
 			
 		</section><!-- contact_us -->
+		
+		<footer>
+			
+			
+		</footer>
 				
 				
 			
