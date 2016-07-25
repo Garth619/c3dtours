@@ -55,20 +55,37 @@
 				
 			</div><!-- mobile_nav -->
 			
+			<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+			
 		</header>	
 		
 		<section class="top_slideshow_mobile">
 		
-		<div class="top_slide">
+			<div class="top_slide">
 			
 			
 			
-		</div><!-- top_slide -->
-			
+			</div><!-- top_slide -->
 			
 		</section><!-- slideshow -->
+		
+		<section class="threed_gallery">
+			
+			<h1>3D Gallery</h1>
+			
+			<div class="threed_gallery_slideshow">
 				
-				<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				
+				
+			</div><!-- threed_gallery_slideshow -->
+			
+			<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+			
+			<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+			
+		</section><!-- 3D Gallery -->
+				
+				
 			
 <?php wp_footer(); ?>
 </body>
