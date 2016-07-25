@@ -20,7 +20,7 @@ a img {border:none}
 /* Variables */
 
 $orange:#ca9539;
-$orangelight:#f3d27a;
+$orangelight:#efbf3e;
 $black:#1d1d1d;
 
 
@@ -197,26 +197,33 @@ header {
 		background: url(images/contact-bg.jpg) top center no-repeat;
 		background-size:cover;
 		width:100%;
-		h1 {
-			font-style: normal;
-			font-weight: 300;
-			font-size:38px;
-			text-transform: uppercase;
-			letter-spacing:3px;
-			border-left:2px solid $orangelight;
-			padding: 45px 2px 10px 25px;
-			margin:0 0px 35px 0px;
-			color:#fff;
-		}
-		span.contact_or {
-			display: block;
+		.border_left_wrapper {
 			text-align: center;
+			h1 {
+				font-style: normal;
+				font-weight: 300;
+				font-size:38px;
+				text-transform: uppercase;
+				letter-spacing:3px;
+				border-left:2px solid $orangelight;
+				padding: 45px 2px 10px 25px;
+				color:#fff;
+				display: inline-block;
+				
+			}
 		}
-		span.mybutton {
-			background: $orangelight;
-			display:inline-block;
-			
-			
+		.sub_headers {
+			text-align: center;
+			span.contact_or {
+				display: block;
+				text-align: center;
+				color:#fff;
+			}
+			span.mybutton {
+				background: $orangelight;
+				display:inline-block;
+				
+			}
 		}
 	}
 }

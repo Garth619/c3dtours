@@ -125,7 +125,11 @@
 			
 			<div class="contact_left">
 				
-				<h1>contact us</h1>
+				<div class="border_left_wrapper">
+					
+					<h1>contact us</h1>
+				
+				</div><!-- border_left_wrapper-->
 				
 				<div class="sub_headers">
 					
