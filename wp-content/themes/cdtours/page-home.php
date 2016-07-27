@@ -47,6 +47,8 @@
 			
 			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
 			
+			
+			
 			<div class="mobile_nav_wrapper">
 				
 				<div class="mobile_bars"></div><!-- mobile_bars -->
@@ -63,12 +65,17 @@
 		
 			<div class="top_slide">
 			
-				<div class="slide_content">
-					
-					<h1>Lorem Ipsum</h1>	
+				<div class="blue_overlay">
 				
-				</div><!-- slide_content -->
-			
+					<div class="slide_content">
+					
+						<h1>Lorem Ipsum</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<span class="demo_button">See Demo</span><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+				
+				</div><!-- blue_overlay -->
 			
 			</div><!-- top_slide -->
 			

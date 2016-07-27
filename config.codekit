@@ -6323,6 +6323,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/cdtours\/images\/blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6715,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/blue.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/cdtours\/images\/cam.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
