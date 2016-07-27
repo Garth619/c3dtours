@@ -117,12 +117,13 @@ header {
 	}
 	
 	
-	.slide_tabs {
+		.slide_tabs {
 			background:$black;
 			width:100%;
 			text-align: center;
+			cursor: pointer;
 			.slide_tabs_title {
-				color:#fff;
+				color:#717171;
 				text-transform: uppercase;
 				font-weight:400;
 				letter-spacing:2px;
@@ -133,7 +134,7 @@ header {
 			}
 			.slide_tabs_title:before {
 				content: "";
-				background: $orangelight;
+				background: transparent;
 				width:55px;
 				height:2px;
 				display:block;
@@ -142,6 +143,23 @@ header {
 				margin:0 auto;
 			}
 		}
+		
+		
+.slide_tabs {
+	.slide_tabs_title.slick-current, .slide_tabs_title:hover {
+			color:#fff;
+		}
+	.slide_tabs_title.slick-current:before {
+				content: "";
+				background: $orangelight;
+				width:55px;
+				height:2px;
+				display:block;
+				position: relative;
+				top:-13px;
+				margin:0 auto;
+			}
+	}
 
 /* 3D Gallery */
 

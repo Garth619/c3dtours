@@ -250,11 +250,12 @@ jQuery(document).ready(function(){
 
 
 jQuery('.slide_tabs').slick({
-  slidesToShow: 3,
+  slidesToShow: 4,
+//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
   slidesToScroll: 1,
   asNavFor: '.top_slideshow_mobile',
   dots: true,
-  centerMode: true,
+//   centerMode: true,
   focusOnSelect: true,
   arrows: false,
 	responsive: [
