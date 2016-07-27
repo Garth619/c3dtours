@@ -65,7 +65,7 @@
 		
 		<section class="top_slideshow_mobile">
 		
-			<div class="top_slide">
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
 			
 				<div class="blue_overlay">
 				
@@ -82,7 +82,7 @@
 			</div><!-- top_slide -->
 			
 			
-			<div class="top_slide">
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
 			
 				<div class="blue_overlay">
 				
@@ -216,7 +216,7 @@ jQuery(document).ready(function(){
  
  
  jQuery('.slide_tabs').slick({
-	 
+	 dots:true,
 	 arrows:false,
 	 asNavFor: '.top_slideshow_mobile'
 	 
