@@ -74,15 +74,18 @@
 						<span class="demo_button">See Demo</span><!-- demo_button -->
 				
 					</div><!-- slide_content -->
+					
+					</div><!-- blue_overlay -->
 				
-				</div><!-- blue_overlay -->
+					<div class="slide_tabs">
+				
+						<span class="slide_tabs_title">Homes</span>
+				
+					</div><!-- slide_tabs -->
 			
 			</div><!-- top_slide -->
 			
-			<div class="slide_tabs">
-				
-				
-			</div><!-- slide_tabs -->
+			
 			
 		</section><!-- slideshow -->
 		
