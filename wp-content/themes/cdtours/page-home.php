@@ -98,12 +98,46 @@
 				
 			</div><!-- top_slide -->
 			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Lorem Ipsum2</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<span class="demo_button">See Demo</span><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Lorem Ipsum2</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<span class="demo_button">See Demo</span><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
 		</section><!-- top_slideshow_mobile -->
 		
 		<nav class="slide_tabs">
 			
 			<div class="slide_tabs_title">Homes</div>
 			<div class="slide_tabs_title">Home2s</div>
+			<div class="slide_tabs_title">Home3s</div>
+			<div class="slide_tabs_title">Home4s</div>
 				
 		</nav><!-- slide_tabs -->
 		
@@ -210,7 +244,18 @@ jQuery(document).ready(function(){
 	 //autoplay:true,
 	 autoplaySpeed: 8000,
 	 arrows:false,
-	 asNavFor: '.slide_tabs'
+	 asNavFor: '.slide_tabs',
+	 responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        infinite: true,
+        asNavFor: '.slide_tabs'
+       
+      }
+    }
+  ]
+
 	 
  });
  
@@ -221,7 +266,21 @@ jQuery(document).ready(function(){
 	 //autoplay:true,
 	 autoplaySpeed: 8000,
 	 arrows:false,
-	 asNavFor: '.top_slideshow_mobile'
+	 slidesToShow: 2,
+   slidesToScroll: 2,
+	 
+	 responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        asNavFor: '.top_slideshow_mobile',
+        dots: true
+      }
+    }
+  ]
 	 
  });
     
