@@ -249,10 +249,6 @@ jQuery(document).ready(function(){
 });
 
 
-
-
-
-
 jQuery('.slide_tabs').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -260,8 +256,17 @@ jQuery('.slide_tabs').slick({
   dots: true,
   centerMode: true,
   focusOnSelect: true,
-  arrows: false
-});    
+  arrows: false,
+	responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   ]
+	});    
  
 
 
