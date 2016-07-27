@@ -207,7 +207,8 @@
 jQuery(document).ready(function(){
   
  jQuery('.top_slideshow_mobile').slick({
-	 
+	 //autoplay:true,
+	 autoplaySpeed: 8000,
 	 arrows:false,
 	 asNavFor: '.slide_tabs'
 	 
@@ -217,6 +218,8 @@ jQuery(document).ready(function(){
  
  jQuery('.slide_tabs').slick({
 	 dots:true,
+	 //autoplay:true,
+	 autoplaySpeed: 8000,
 	 arrows:false,
 	 asNavFor: '.top_slideshow_mobile'
 	 
