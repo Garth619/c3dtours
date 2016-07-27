@@ -28,6 +28,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick/slick-theme.css"/>
 <?php wp_head();?>
 <script>
   (function(d) {
@@ -75,19 +77,35 @@
 				
 					</div><!-- slide_content -->
 					
-					</div><!-- blue_overlay -->
+				</div><!-- blue_overlay -->
 				
-					<div class="slide_tabs">
-				
-						<span class="slide_tabs_title">Homes</span>
-				
-					</div><!-- slide_tabs -->
-			
 			</div><!-- top_slide -->
 			
 			
+			<div class="top_slide">
 			
-		</section><!-- slideshow -->
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Lorem Ipsum2</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<span class="demo_button">See Demo</span><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+		</section><!-- top_slideshow_mobile -->
+		
+		<nav class="slide_tabs">
+			
+			<div class="slide_tabs_title">Homes</div>
+			<div class="slide_tabs_title">Home2s</div>
+				
+		</nav><!-- slide_tabs -->
 		
 		<section class="threed_gallery">
 			
@@ -182,6 +200,33 @@
 				
 			
 <?php wp_footer(); ?>
+
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+  
+ jQuery('.top_slideshow_mobile').slick({
+	 
+	 arrows:false,
+	 asNavFor: '.slide_tabs'
+	 
+ });
+ 
+ 
+ 
+ jQuery('.slide_tabs').slick({
+	 
+	 arrows:false,
+	 asNavFor: '.top_slideshow_mobile'
+	 
+ });
+    
+ 
+
+});
+
+</script>
 </body>
 </html>
 

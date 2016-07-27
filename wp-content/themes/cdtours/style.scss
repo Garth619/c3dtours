@@ -92,10 +92,12 @@ header {
 					text-transform: uppercase; 
 					font-size:33px;
 					margin-bottom:6px;
+					letter-spacing:2px;
 				}
 				h2 {
 					font-weight: 300;
 					font-size:19px;
+					letter-spacing:2px;
 				}
 				span.demo_button {
 					background: $orangelight;
@@ -114,15 +116,34 @@ header {
 				}
 			}
 		}
-		.slide_tabs {
+	}
+	
+	
+	.slide_tabs {
 			background:$black;
 			width:100%;
-			height:50px;
+			text-align: center;
 			.slide_tabs_title {
 				color:#fff;
+				text-transform: uppercase;
+				font-weight:400;
+				letter-spacing:2px;
+				display: inline-block;
+				padding:13px 0;
+				border-right:1px solid #3c3c3c;
+				width:100%;
+			}
+			.slide_tabs_title:before {
+				content: "";
+				background: $orangelight;
+				width:55px;
+				height:2px;
+				display:block;
+				position: relative;
+				top:-13px;
+				margin:0 auto;
 			}
 		}
-	}
 
 /* 3D Gallery */
 
