@@ -71,7 +71,7 @@
 				
 					<div class="slide_content">
 					
-						<h1>Lorem Ipsum</h1>	
+						<h1>Home</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<span class="demo_button">See Demo</span><!-- demo_button -->
 				
@@ -88,7 +88,7 @@
 				
 					<div class="slide_content">
 					
-						<h1>Lorem Ipsum2</h1>	
+						<h1>Restaurants</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<span class="demo_button">See Demo</span><!-- demo_button -->
 				
@@ -104,7 +104,7 @@
 				
 					<div class="slide_content">
 					
-						<h1>Lorem Ipsum2</h1>	
+						<h1>Breweries</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<span class="demo_button">See Demo</span><!-- demo_button -->
 				
@@ -120,7 +120,7 @@
 				
 					<div class="slide_content">
 					
-						<h1>Lorem Ipsum2</h1>	
+						<h1>Commercial</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<span class="demo_button">See Demo</span><!-- demo_button -->
 				
@@ -135,9 +135,9 @@
 		<nav class="slide_tabs">
 			
 			<div class="slide_tabs_title">Homes</div>
-			<div class="slide_tabs_title">Home2s</div>
-			<div class="slide_tabs_title">Home3s</div>
-			<div class="slide_tabs_title">Home4s</div>
+			<div class="slide_tabs_title">Restaurants</div>
+			<div class="slide_tabs_title">Breweries</div>
+			<div class="slide_tabs_title">Commercial</div>
 				
 		</nav><!-- slide_tabs -->
 		
@@ -241,50 +241,31 @@
 jQuery(document).ready(function(){
   
  jQuery('.top_slideshow_mobile').slick({
-	 //autoplay:true,
-	 autoplaySpeed: 8000,
-	 arrows:false,
-	 asNavFor: '.slide_tabs',
-	 responsive: [
-    {
-      breakpoint: 800,
-      settings: {
-        infinite: true,
-        asNavFor: '.slide_tabs'
-       
-      }
-    }
-  ]
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slide_tabs'
+});
 
-	 
- });
+
+
+
+
+
+jQuery('.slide_tabs').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.top_slideshow_mobile',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true,
+  arrows: false
+});    
  
- 
- 
- jQuery('.slide_tabs').slick({
-	 dots:true,
-	 //autoplay:true,
-	 autoplaySpeed: 8000,
-	 arrows:false,
-	 slidesToShow: 2,
-   slidesToScroll: 2,
-	 
-	 responsive: [
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        asNavFor: '.top_slideshow_mobile',
-        dots: true
-      }
-    }
-  ]
-	 
- });
-    
- 
+
+
+
 
 });
 
