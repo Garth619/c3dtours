@@ -189,6 +189,26 @@
 		<section class="industries">
 			
 			<a name="industries"/>
+			<h1 class="indus_title">Industries</h1>
+			
+			<div class="indus_content">
+				
+				<h1>Restaurants</h1>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+			</div><!-- indus_content -->
+			
+			<div class="indus_thumbs_wrapper">
+				
+				<div class="indus_thumbs">Homes</div>
+<!--
+				<div class="indus_thumbs">Restaurants</div>
+				<div class="indus_thumbs">Breweries</div>
+				<div class="indus_thumbs">Commercial</div>
+-->
+				
+			</div><!-- indus_thumbs -->
 			
 		</section><!-- industries -->
 		
