@@ -68,11 +68,12 @@
 			<div class="nav_wrap_inner">
 				
 				<ul>
-					<li><a href="">Welcome</a></li>
-					<li><a href="">3D Gallery Demo</a></li>
-					<li><a href="">Industries</a></li>
-					<li><a href="">Contact Us</a></li>
-					<li><a href="">Leave a Review</a></li>
+					<li><a href="#welcome">Welcome</a></li>
+					<li><a href="#demo">3D Gallery Demo</a></li>
+					<li><a href="#industries">Industries</a></li>
+					<li><a href="#floorplan">Floor Plan</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="#leave-a-review">Leave a Review</a></li>
 				</ul>
 			
 			</div><!-- nav_wrap_inner -->
@@ -160,6 +161,8 @@
 		
 		<section class="threed_gallery">
 			
+			<a name="demo"/>
+			
 			<h1>3D Gallery</h1>
 			
 			<div class="threed_gallery_slideshow">
@@ -185,11 +188,13 @@
 		
 		<section class="industries">
 			
-			
+			<a name="industries"/>
 			
 		</section><!-- industries -->
 		
 		<section class="floor_plan">
+			
+			<a name="floorplan"/>
 			
 			<h1>Floor Plans</h1>
 			
@@ -211,6 +216,8 @@
 		</section><!-- floor_plan -->
 		
 		<section class="contact_us">
+			
+			<a name="contact"/>
 			
 			<div class="contact_left">
 				
@@ -293,6 +300,12 @@ jQuery('.slide_tabs').slick({
 		jQuery(".nav_wrap").slideToggle(200);
 		jQuery(this).toggleClass("open");
 
+	});
+	
+	jQuery(".nav_wrap a").click(function(){
+		
+		jQuery(".nav_wrap").delay(300).slideUp(200);
+		
 	});
 
 });
