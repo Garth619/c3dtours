@@ -291,6 +291,7 @@ jQuery('.slide_tabs').slick({
 	jQuery(".mobile_nav_wrapper").click(function(){
 
 		jQuery(".nav_wrap").slideToggle(200);
+		jQuery(this).toggleClass("open");
 
 	});
 
