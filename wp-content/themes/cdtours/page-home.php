@@ -59,9 +59,26 @@
 				
 			</div><!-- mobile_nav -->
 			
-			<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+			
 			
 		</header>	
+		
+		<nav class="nav_wrap">
+			
+			<div class="nav_wrap_inner">
+				
+				<ul>
+					<li><a href="">Welcome</a></li>
+					<li><a href="">3D Gallery Demo</a></li>
+					<li><a href="">Industries</a></li>
+					<li><a href="">Contact Us</a></li>
+					<li><a href="">Leave a Review</a></li>
+				</ul>
+			
+			</div><!-- nav_wrap_inner -->
+			
+			
+		</nav><!-- nav_wrap -->
 		
 		<section class="top_slideshow_mobile">
 		
@@ -271,7 +288,11 @@ jQuery('.slide_tabs').slick({
  
 
 
+	jQuery(".mobile_nav_wrapper").click(function(){
 
+		jQuery(".nav_wrap").slideToggle(200);
+
+	});
 
 });
 
