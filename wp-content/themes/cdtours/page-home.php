@@ -73,7 +73,7 @@
 					<li><a href="#industries">Industries</a></li>
 					<li><a href="#floorplan">Floor Plan</a></li>
 					<li><a href="#contact">Contact Us</a></li>
-					<li><a href="#leave-a-review">Leave a Review</a></li>
+					<li><a href="#contact" class="leaveareview">Leave a Review</a></li>
 				</ul>
 			
 			</div><!-- nav_wrap_inner -->
@@ -243,29 +243,37 @@
 				
 				<div class="border_left_wrapper">
 					
-					<h1>contact us</h1>
+					<h1><a href="#contact">contact us</a></h1>
 				
 				</div><!-- border_left_wrapper-->
 				
 				<div class="sub_headers">
 					
 					<span class="contact_or">or</span>
-					<span class="mybutton">Leave a Review</span>
+					<a href="#contact" class="mybutton leaveareview">Leave a Review</a>
 				
 				</div><!-- sub_headers -->
 				
 				
 			</div><!-- contact_left -->
 			
-			<a name="contact"/>
+			
 			
 			<div class="contact_right">
+				
+				<a name="contact"/>
 				
 				<div class="form_wrapper">
 					
 					<?php gravity_form( 1, false, true, false, '', true );?>
 					
 				</div><!--form_wrapper -->
+				
+				<div class="leavereview_wrapper">
+					
+					<h1>Leave a review</h1>
+					
+				</div><!-- leavereview_wrapper -->
 				
 				
 			</div><!-- contact_right -->
@@ -331,7 +339,7 @@ jQuery('.slide_tabs').slick({
 		
 		jQuery(".nav_wrap").slideUp(200);
 		jQuery(".mobile_nav_wrapper").removeClass("open");
-// 		jQuery("header").fadeOut();
+
 		
 	});
 	
@@ -363,7 +371,7 @@ jQuery('.slide_tabs').slick({
 
 	
 	
-	
+	// Anchors
 	
 	
 
@@ -381,6 +389,24 @@ jQuery('.slide_tabs').slick({
     }
   });
 });
+
+
+// Leave a Review 
+
+
+jQuery(".leavereview_wrapper").hide();
+
+
+jQuery(".leaveareview").click(function() {
+	
+	jQuery(".form_wrapper").fadeOut(600);
+	jQuery(".contact_right").css("height","600px");
+	jQuery(".leavereview_wrapper").delay(300).fadeIn(600);
+		
+});
+
+
+
 
 	
 	
