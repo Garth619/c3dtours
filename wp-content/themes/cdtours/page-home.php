@@ -283,6 +283,9 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
 <script type="text/javascript">
+	
+	
+// Slides
 
 jQuery(document).ready(function(){
   
@@ -315,7 +318,7 @@ jQuery('.slide_tabs').slick({
    ]
 	});    
  
-
+// Mobile Menu
 
 	jQuery(".mobile_nav_wrapper").click(function(){
 
@@ -328,8 +331,59 @@ jQuery('.slide_tabs').slick({
 		
 		jQuery(".nav_wrap").delay(300).slideUp(200);
 		jQuery(".mobile_nav_wrapper").removeClass("open");
+// 		jQuery("header").fadeOut();
 		
 	});
+	
+	
+	// Fixed Header
+	
+	
+	var lastScroll = 0;
+
+
+    jQuery("header").show();
+
+    jQuery(window).scroll(function(){
+        var scroll = jQuery(window).scrollTop();
+        if (scroll > lastScroll) {
+            
+            
+         jQuery("header").fadeOut();
+        
+        
+        } else if (scroll < lastScroll) {
+            
+            jQuery("header").fadeIn();
+        
+        
+        }
+        lastScroll = scroll;
+    });
+
+	
+	
+	
+	
+	
+/*
+	$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+*/
+	
+	
 
 });
 
