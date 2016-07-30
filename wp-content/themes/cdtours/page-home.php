@@ -329,7 +329,7 @@ jQuery('.slide_tabs').slick({
 	
 	jQuery(".nav_wrap a").click(function(){
 		
-		jQuery(".nav_wrap").delay(300).slideUp(200);
+		jQuery(".nav_wrap").slideUp(200);
 		jQuery(".mobile_nav_wrapper").removeClass("open");
 // 		jQuery("header").fadeOut();
 		
@@ -366,22 +366,22 @@ jQuery('.slide_tabs').slick({
 	
 	
 	
-/*
-	$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
+
+	jQuery(function() {
+  jQuery('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      var target = jQuery(this.hash);
+      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html, body').animate({
+        jQuery('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 600);
         return false;
       }
     }
   });
 });
-*/
+
 	
 	
 
