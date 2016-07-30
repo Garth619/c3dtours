@@ -157,7 +157,7 @@ header {
 					font-size:19px;
 					letter-spacing:2px;
 				}
-				span.demo_button {
+				a.demo_button {
 					background: $orangelight;
 					font-weight:400;
 					text-transform: uppercase;
@@ -168,12 +168,19 @@ header {
 					margin:20px 0;
 					display: inline-block;
 					cursor: pointer;
+					text-decoration: none;
 				}
 			}
 		}
 	}
 	
 	
+		
+		
+	.slide_tabs_wrapper {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
 		.slide_tabs {
 			background:$black;
 			width:100%;
@@ -200,6 +207,8 @@ header {
 				margin:0 auto;
 			}
 		}
+		
+	}
 		
 		
 .slide_tabs {

@@ -91,7 +91,7 @@
 					
 						<h1>Home</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
-						<span class="demo_button">See Demo</span><!-- demo_button -->
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
 					
@@ -150,14 +150,18 @@
 			
 		</section><!-- top_slideshow_mobile -->
 		
-		<nav class="slide_tabs">
+		<div class="slide_tabs_wrapper">
+		
+			<nav class="slide_tabs">
 			
-			<div class="slide_tabs_title">Homes</div>
-			<div class="slide_tabs_title">Restaurants</div>
-			<div class="slide_tabs_title">Breweries</div>
-			<div class="slide_tabs_title">Commercial</div>
+				<div class="slide_tabs_title">Homes</div>
+				<div class="slide_tabs_title">Restaurants</div>
+				<div class="slide_tabs_title">Breweries</div>
+				<div class="slide_tabs_title">Commercial</div>
 				
 		</nav><!-- slide_tabs -->
+		
+		</div><!-- slide_tabs_wrapper -->
 		
 		<section class="threed_gallery">
 			
