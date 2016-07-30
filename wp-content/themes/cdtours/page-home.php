@@ -237,7 +237,7 @@
 		
 		<section class="contact_us">
 			
-			<a name="contact"/>
+			
 			
 			<div class="contact_left">
 				
@@ -257,11 +257,13 @@
 				
 			</div><!-- contact_left -->
 			
+			<a name="contact"/>
+			
 			<div class="contact_right">
 				
 				<div class="form_wrapper">
 					
-					
+					<?php gravity_form( 1, false, true, false, '', true );?>
 					
 				</div><!--form_wrapper -->
 				
@@ -325,6 +327,7 @@ jQuery('.slide_tabs').slick({
 	jQuery(".nav_wrap a").click(function(){
 		
 		jQuery(".nav_wrap").delay(300).slideUp(200);
+		jQuery(".mobile_nav_wrapper").removeClass("open");
 		
 	});
 

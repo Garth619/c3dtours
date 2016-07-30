@@ -157,13 +157,15 @@ header {
 					background: $orangelight;
 					font-weight:400;
 					text-transform: uppercase;
-					padding:4px 20px;
-					font-size:19px;
+					padding:4px 25px;
+					font-size:18px;
 					color: $black;
 					letter-spacing: 2px;
+/*
 					-webkit-border-radius: 10px;
 					-moz-border-radius: 10px;
 					border-radius: 10px;
+*/
 					margin:20px 0;
 					display: inline-block;
 					cursor: pointer;
@@ -296,7 +298,7 @@ header {
 	}
 	.indus_content {
 		background: #fff;
-		width:85%;
+		width:88%;
 		margin:0 auto;
 		padding:25px;
 		h1 {
@@ -391,14 +393,22 @@ header {
 		.sub_headers {
 			text-align: center;
 			span.contact_or {
+				color: #fff;
 				display: block;
+				font-size: 24px;
+				margin-bottom: 11px;
+				margin-top: -8px;
 				text-align: center;
-				color:#fff;
 			}
 			span.mybutton {
 				background: $orangelight;
 				display:inline-block;
-				
+				padding:5px 20px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				cursor: pointer;
+				font-weight:400;
+				font-size: 16px;
 			}
 		}
 	}
@@ -406,7 +416,56 @@ header {
 		background:url(images/form-bg.jpg) top left no-repeat;
 		background-size: cover;
 		width:100%;
-		height:500px;
+		padding:65px;
+		.form_wrapper {
+			text-align: center;
+			ul {
+				list-style: none;
+				li {
+					width:100%;
+					margin-bottom: 12px;
+					label {
+						display: none;
+					}
+					input, textarea {
+						width:100%;
+						border: none;
+						text-transform: uppercase;
+						font-family: "proxima-nova",sans-serif;
+						padding:15px 10px;
+						font-size: 14px;
+						text-align: left;
+					}
+					input {
+						
+					}
+					textarea {
+						height:150px;
+					}
+				}
+			}
+		}
+		.gform_description {
+			color:#fff;
+			font-weight: 400;
+			font-size:22px;
+			margin-bottom: 20px;
+			display: block;
+			a {
+				color:$orangelight;
+				text-decoration: none;
+			}
+		}
+		.gform_button {
+			background: $orangelight;
+			border:none;
+			padding:5px 20px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			cursor: pointer;
+			font-weight:400;
+			font-size: 16px;
+		}
 	}
 }
 
