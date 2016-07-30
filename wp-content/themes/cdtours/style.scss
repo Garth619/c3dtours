@@ -179,7 +179,7 @@ header {
 		
 	.slide_tabs_wrapper {
 		position: fixed;
-		bottom: 0;
+		bottom: -30px;
 		width: 100%;
 		.slide_tabs {
 			background:$black;
@@ -209,6 +209,21 @@ header {
 		}
 		
 	}
+	
+	
+	.slick-dots {
+    bottom: -7px !important;
+   }
+	
+	.slick-dots li button:before {
+     
+    color: $orangelight !important;
+    }
+    
+   .slick-dots:slick-active li button {
+	   opacity: 1 !important;
+   }
+
 		
 		
 .slide_tabs {

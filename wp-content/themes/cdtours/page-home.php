@@ -108,7 +108,7 @@
 					
 						<h1>Restaurants</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
-						<span class="demo_button">See Demo</span><!-- demo_button -->
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
 					
@@ -124,7 +124,7 @@
 					
 						<h1>Breweries</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
-						<span class="demo_button">See Demo</span><!-- demo_button -->
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
 					
@@ -140,7 +140,7 @@
 					
 						<h1>Commercial</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
-						<span class="demo_button">See Demo</span><!-- demo_button -->
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
 					
