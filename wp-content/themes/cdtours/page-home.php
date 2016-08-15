@@ -45,7 +45,7 @@
 
 <body <?php body_class(); ?>>
 		
-		<header>
+		<header class="show">
 			
 			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
 			
@@ -57,9 +57,8 @@
 				
 			</div><!-- mobile_nav -->
 			
-		</header>	
-		
-		<nav class="nav_wrap">
+			
+			<nav class="nav_wrap">
 			
 			<div class="nav_wrap_inner">
 				
@@ -76,6 +75,12 @@
 			
 			
 		</nav><!-- nav_wrap -->
+			
+			
+			
+		</header>	
+		
+		
 		
 		
 		<div class="test_wrapper">

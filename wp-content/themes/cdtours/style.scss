@@ -544,6 +544,12 @@ footer {
 }
 
 
-
+@media screen and (min-width: 900px) {
+	
+	.mobile_nav_wrapper {
+		display: none;
+	}
+	
+}
 
 

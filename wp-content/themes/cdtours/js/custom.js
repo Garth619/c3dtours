@@ -37,6 +37,7 @@ jQuery('.slide_tabs').slick({
 
 		jQuery(".nav_wrap").slideToggle(200);
 		jQuery(this).toggleClass("open");
+		jQuery("header").toggleClass("show");
 
 	});
 	
@@ -44,6 +45,7 @@ jQuery('.slide_tabs').slick({
 		
 		jQuery(".nav_wrap").slideUp(200);
 		jQuery(".mobile_nav_wrapper").removeClass("open");
+		jQuery("header").addClass("show");
 
 		
 	});
@@ -55,19 +57,19 @@ jQuery('.slide_tabs').slick({
 	var lastScroll = 0;
 
 
-    jQuery("header").show();
+    jQuery(".show").show();
 
     jQuery(window).scroll(function(){
         var scroll = jQuery(window).scrollTop();
         if (scroll > lastScroll) {
             
             
-         jQuery("header").fadeOut();
+         jQuery(".show").fadeOut();
         
         
         } else if (scroll < lastScroll) {
             
-            jQuery("header").fadeIn();
+            jQuery(".show").fadeIn();
         
         
         }
