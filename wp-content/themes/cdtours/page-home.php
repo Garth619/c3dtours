@@ -47,7 +47,9 @@
 		
 		<header class="show">
 			
-			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
+			<div class="logo_wrapper">
+				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
+			</div><!-- logo_wrapper -->
 			
 			<div class="mobile_nav_wrapper">
 				
@@ -76,7 +78,20 @@
 			
 		</nav><!-- nav_wrap -->
 			
+		
+		
+		<nav class="desktop_nav">
 			
+			<ul>
+				<li><a href="#demo">3D Gallery Demo</a></li>
+				<li><a href="#industries">Industries</a></li>
+				<li><a href="#floorplan">Floor Plan</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+				<li><a href="">555.555.5555</a></li>
+			</ul>
+			
+		</nav><!-- desktop_nav -->
+		
 			
 		</header>	
 		
