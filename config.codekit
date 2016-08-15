@@ -9122,6 +9122,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/wp-content\/themes\/cdtours\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/cdtours\/loop-attachment.php": {
 		"fileType": 8192,
 		"ignore": 0,

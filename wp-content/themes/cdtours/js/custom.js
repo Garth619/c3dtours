@@ -76,7 +76,27 @@ jQuery('.slide_tabs').slick({
         lastScroll = scroll;
     });
     
-  // Fixed Bottom Navs
+  
+  // Makes the desktop nav show on page scroll
+  
+  jQuery(window).resize(function(){
+            
+      if (Modernizr.mq('(max-width: 980px)')) {
+          
+          jQuery("header").addClass("show");
+          
+      } else {
+          
+          // Clear the settings etc
+          
+          jQuery("header").removeClass("show");
+      
+      }
+    
+    
+    }).resize();
+  
+  
   
 
 
