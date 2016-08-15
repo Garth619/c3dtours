@@ -95,6 +95,18 @@ jQuery('.slide_tabs').slick({
     
     
     }).resize();
+
+
+	// Desktop Nav Active States
+
+
+	jQuery("nav.desktop_nav a").click(function() {
+		
+		
+		jQuery("nav.desktop_nav a").removeClass("nav_active");
+		jQuery(this).addClass("nav_active");
+		
+	});
   
   
   
