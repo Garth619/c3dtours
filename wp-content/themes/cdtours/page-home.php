@@ -98,7 +98,7 @@
 		
 		
 		
-		<div class="test_wrapper">
+	
 		
 		<section class="top_slideshow_mobile stickem-container">
 		
@@ -186,7 +186,7 @@
 		
 		<section class="threed_gallery">
 			
-			<a name="demo"/>
+			<a class="gallery_tag" name="demo"></a>
 			
 			<h1>3D Gallery</h1>
 			
@@ -213,7 +213,8 @@
 		
 		<section class="industries">
 			
-			<a name="industries"/>
+			<a class="industry_tag" name="industries"></a>
+			
 			<h1 class="indus_title">Industries</h1>
 			
 			
@@ -244,7 +245,7 @@
 		
 		<section class="floor_plan">
 			
-			<a name="floorplan"/>
+			<a class="floorplan_tag" name="floorplan"></a>
 			
 			<h1>Floor Plans</h1>
 			
@@ -291,7 +292,7 @@
 			
 			<div class="contact_right">
 				
-				<a name="contact"/>
+				<a class="contact_tag" name="contact"></a>
 				
 				<div class="form_wrapper">
 					
@@ -335,7 +336,7 @@
 			
 		</footer>
 				
-				</div><!-- test_wrapper -->
+				
 			
 <?php wp_footer(); ?>
 

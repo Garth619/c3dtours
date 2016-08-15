@@ -132,6 +132,9 @@ header {
 }
 
 
+
+
+
 /* Top Slidehow */
 
 
@@ -253,6 +256,7 @@ header {
 
 .threed_gallery {
 	padding:50px 0px;
+	position: relative;
 	h1 {
 		font-style: normal;
 		font-weight: 300;
@@ -304,6 +308,11 @@ header {
 	}
 }
 
+.gallery_tag {
+	position: absolute;
+	top:0px;
+}
+
 
 /* Industries */
 
@@ -311,6 +320,7 @@ header {
 	background:url(images/industries.jpg) top center no-repeat;
 	background-size:cover;
 	width:100%;
+	position: relative;
 // 	height:592px;
 	h1.indus_title {
 		font-style: normal;
@@ -359,10 +369,16 @@ header {
 	}
 }
 
+.industry_tag {
+		position: absolute;
+		top:0px;
+	}
+
 /* Floor Plan */
 
 .floor_plan {
 	padding:50px 0;
+	position: relative;
 	h1 {
 		font-style: normal;
 		font-weight: 300;
@@ -399,6 +415,11 @@ header {
 			}
 		}
 	}
+}
+
+.floorplan_tag {
+	position: absolute;
+	top:0px;
 }
 
 
@@ -463,6 +484,7 @@ header {
 		background-size: cover;
 		width:100%;
 		padding:65px 10%;
+		position: relative;
 		.form_wrapper {
 			text-align: center;
 			ul {
@@ -524,6 +546,12 @@ header {
 			}
 		}
 	}
+	
+	
+	.contact_tag {
+		position: absolute;
+		top:0px;
+	}
 
 
 /* Footer */
@@ -581,12 +609,51 @@ footer {
 						padding: 19px 0;
 					}
 				}
-				li:last-of-type a {
-					border:none;
+				li:last-of-type {
+					font-weight:600;
+					a {
+						border:none;
+						
+					}
 				}
 			}
 		}
 	}
+	
+	
+	/* 3D Gallery */
+	
+	.gallery_tag {
+		position: absolute;
+		top:-56px;
+	}
+	
+	
+	
+	
+	/* Industries */
+	
+	.industry_tag {
+		position: absolute;
+		top:-59px;
+	}
+	
+	
+	/* Floor Plan */
+	
+	.floorplan_tag {
+		position: absolute;
+		top:-58px;
+	}
+	
+	/* Contact Us */
+	
+	.contact_tag {
+		position: absolute;
+		top:-59px;
+	}
+	
+	
 	
 } /* Media Query */
 
