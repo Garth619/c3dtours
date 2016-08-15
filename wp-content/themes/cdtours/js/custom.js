@@ -97,42 +97,51 @@ jQuery('.slide_tabs').slick({
     }).resize();
 
 
-	// Desktop Nav Active States
+		
+	
+	// Toggles through top nav active states as page scrolls through sections
+	
 
+	jQuery(document).on("scroll", onScroll);
+ 
+		jQuery('a[href^="#"]').on('click', function (e) {
+			e.preventDefault();
+			jQuery(document).off("scroll");
+ 
+			jQuery('nav.desktop_nav a').each(function () {
+				jQuery(this).removeClass('nav_active');
+			})
+			jQuery(this).addClass('nav_active');
+ 
+			var target = this.hash;
+			$target = jQuery(target);
+			jQuery('html, body').stop().animate({
+				'scrollTop': $target.offset().top+2
+			}, 500, 'swing', function () {
+				window.location.hash = target;
+				jQuery(document).on("scroll", onScroll);
+			});
+		});
 
-	jQuery("nav.desktop_nav a").click(function() {
-		
-		
-		jQuery("nav.desktop_nav a").removeClass("nav_active");
-		jQuery(this).addClass("nav_active");
-		
-	});
-  
-  
-  
+ 
+	function onScroll(event){
+		var scrollPosition = jQuery(document).scrollTop();
+		jQuery('nav.desktop_nav a').each(function () {
+			var currentLink = jQuery(this);
+			var refElement = jQuery(currentLink.attr("href"));
+			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+				jQuery('nav.desktop_nav a').removeClass("nav_active");
+				currentLink.addClass("nav_active");
+			}
+			else{
+				currentLink.removeClass("nav_active");
+			}
+		});
+	}
+
 
 
 	
-	// Anchors
-	
-	
-
-	jQuery(function() {
-  jQuery('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = jQuery(this.hash);
-      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        jQuery('html, body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
-  });
-});
-
-
 // Leave a Review 
 
 

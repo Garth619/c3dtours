@@ -185,9 +185,9 @@
 		
 		</div><!-- slide_tabs_wrapper -->
 		
-		<section class="threed_gallery">
+		<section id="demo" class="threed_gallery">
 			
-			<a class="gallery_tag" name="demo"></a>
+<!-- 			<div id="demo" class="gallery_tag">hellp</div> -->
 			
 			<h1>3D Gallery</h1>
 			
@@ -212,9 +212,9 @@
 			
 		</section><!-- 3D Gallery -->
 		
-		<section class="industries">
+		<section id="industries" class="industries_section">
 			
-			<a class="industry_tag" name="industries"></a>
+
 			
 			<h1 class="indus_title">Industries</h1>
 			
@@ -244,9 +244,9 @@
 			
 		</section><!-- industries -->
 		
-		<section class="floor_plan">
+		<section id="floorplan" class="floor_plan">
 			
-			<a class="floorplan_tag" name="floorplan"></a>
+<!-- 			<a class="floorplan_tag" name="floorplan"></a> -->
 			
 			<h1>Floor Plans</h1>
 			
@@ -291,9 +291,9 @@
 			
 			
 			
-			<div class="contact_right">
+			<div id="contact" class="contact_right">
 				
-				<a class="contact_tag" name="contact"></a>
+<!-- 				<a class="contact_tag" name="contact"></a> -->
 				
 				<div class="form_wrapper">
 					
@@ -344,7 +344,10 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script>
+<script>
 
+		
+</script>
 
 
 
