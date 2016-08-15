@@ -65,12 +65,13 @@
 			<div class="nav_wrap_inner">
 				
 				<ul>
-					<li><a href="#welcome">Welcome</a></li>
+					<li><a href="">555.555.5555</a></li>
 					<li><a href="#demo">3D Gallery Demo</a></li>
 					<li><a href="#industries">Industries</a></li>
 					<li><a href="#floorplan">Floor Plan</a></li>
 					<li><a href="#contact">Contact Us</a></li>
 					<li><a href="#contact" class="leaveareview">Leave a Review</a></li>
+					
 				</ul>
 			
 			</div><!-- nav_wrap_inner -->
