@@ -49,8 +49,6 @@
 			
 			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
 			
-			
-			
 			<div class="mobile_nav_wrapper">
 				
 				<div class="mobile_bars"></div><!-- mobile_bars -->
@@ -58,8 +56,6 @@
 				<div class="mobile_bars"></div><!-- mobile_bars -->
 				
 			</div><!-- mobile_nav -->
-			
-			
 			
 		</header>	
 		
@@ -81,7 +77,10 @@
 			
 		</nav><!-- nav_wrap -->
 		
-		<section class="top_slideshow_mobile">
+		
+		<div class="test_wrapper">
+		
+		<section class="top_slideshow_mobile stickem-container">
 		
 			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
 			
@@ -150,7 +149,9 @@
 			
 		</section><!-- top_slideshow_mobile -->
 		
-		<div class="slide_tabs_wrapper">
+	
+		
+		<div class="slide_tabs_wrapper stickem">
 		
 			<nav class="slide_tabs">
 			
@@ -195,6 +196,9 @@
 			<a name="industries"/>
 			<h1 class="indus_title">Industries</h1>
 			
+			
+			<div class="indus_box_wrapper">
+			
 			<div class="indus_content">
 				
 				<h1>Restaurants</h1>
@@ -213,6 +217,8 @@
 -->
 				
 			</div><!-- indus_thumbs -->
+			
+			</div><!-- indus_box_wrapper -->
 			
 		</section><!-- industries -->
 		
@@ -275,7 +281,9 @@
 				
 				<div class="leavereview_wrapper">
 					
-					<h1>Leave a review</h1>
+					<span>Leave a review</span>
+					
+					<span class="back">Back</span>
 					
 				</div><!-- leavereview_wrapper -->
 				
@@ -286,138 +294,38 @@
 		
 		<footer>
 			
+			<span>copyright VERBIAGE</span>
+			
+			<div class="social_icons_wrapper">
+			
+				<a href="" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/images/fb.png"/>
+				</a>
+				<a href="" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/images/fb.png"/>
+				</a>
+				<a href="" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/images/fb.png"/>
+				</a>
+				<a href="" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/images/fb.png"/>
+				</a>
+			
+			</div><!-- social_icons_wrapper -->
 			
 		</footer>
 				
-				
+				</div><!-- test_wrapper -->
 			
 <?php wp_footer(); ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
-<script type="text/javascript">
-	
-	
-// Slides
-
-jQuery(document).ready(function(){
-  
- jQuery('.top_slideshow_mobile').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slide_tabs'
-});
-
-
-jQuery('.slide_tabs').slick({
-  slidesToShow: 4,
-//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
-  slidesToScroll: 1,
-  asNavFor: '.top_slideshow_mobile',
-  dots: true,
-//   centerMode: true,
-  focusOnSelect: true,
-  arrows: false,
-	responsive: [
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-   ]
-	});    
- 
-// Mobile Menu
-
-	jQuery(".mobile_nav_wrapper").click(function(){
-
-		jQuery(".nav_wrap").slideToggle(200);
-		jQuery(this).toggleClass("open");
-
-	});
-	
-	jQuery(".nav_wrap a").click(function(){
-		
-		jQuery(".nav_wrap").slideUp(200);
-		jQuery(".mobile_nav_wrapper").removeClass("open");
-
-		
-	});
-	
-	
-	// Fixed Header
-	
-	
-	var lastScroll = 0;
-
-
-    jQuery("header").show();
-
-    jQuery(window).scroll(function(){
-        var scroll = jQuery(window).scrollTop();
-        if (scroll > lastScroll) {
-            
-            
-         jQuery("header").fadeOut();
-        
-        
-        } else if (scroll < lastScroll) {
-            
-            jQuery("header").fadeIn();
-        
-        
-        }
-        lastScroll = scroll;
-    });
-
-	
-	
-	// Anchors
-	
-	
-
-	jQuery(function() {
-  jQuery('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = jQuery(this.hash);
-      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        jQuery('html, body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
-  });
-});
-
-
-// Leave a Review 
-
-
-jQuery(".leavereview_wrapper").hide();
-
-
-jQuery(".leaveareview").click(function() {
-	
-	jQuery(".form_wrapper").fadeOut(600);
-	jQuery(".contact_right").css("height","600px");
-	jQuery(".leavereview_wrapper").delay(300).fadeIn(600);
-		
-});
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
 
 
 
 
-	
-	
 
-});
-
-</script>
 </body>
 </html>
 
