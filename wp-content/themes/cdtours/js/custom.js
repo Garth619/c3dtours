@@ -101,6 +101,9 @@ jQuery('.slide_tabs').slick({
 	
 	// Toggles through top nav active states as page scrolls through sections
 	
+	
+	// https://stanhub.com/sticky-header-change-navigation-active-class-on-page-scroll-with-jquery/
+	
 
 	jQuery(document).on("scroll", onScroll);
  
