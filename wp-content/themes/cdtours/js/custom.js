@@ -54,6 +54,7 @@ jQuery('.slide_tabs').slick({
 	// Fixed Header
 	
 	
+/*
 	var lastScroll = 0;
 
 
@@ -75,6 +76,7 @@ jQuery('.slide_tabs').slick({
         }
         lastScroll = scroll;
     });
+*/
     
   
   // Makes the desktop nav show on page scroll
