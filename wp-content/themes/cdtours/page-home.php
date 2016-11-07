@@ -44,12 +44,14 @@
 </script>
 </head>
 
-<body <?php body_class(); ?>>
+<body id="bodytop" <?php body_class(); ?>>
 		
 		<header class="show">
 			
 			<div class="logo_wrapper">
-				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
+				<a href="#bodytop">
+					<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
+				</a>
 			</div><!-- logo_wrapper -->
 			
 			<div class="mobile_nav_wrapper">
@@ -225,7 +227,7 @@
 					<div class="slide_content">
 					
 						<h1>Restaurants</h1>	
-						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<h2>Lorem ipsum dolor sitLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
@@ -241,7 +243,7 @@
 					<div class="slide_content">
 					
 						<h1>Breweries</h1>	
-						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<h2>LoremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
