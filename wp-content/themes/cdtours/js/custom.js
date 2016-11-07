@@ -233,6 +233,14 @@ jQuery('.gallery_tabs').slick({
 	}
 
 
+// Match Height for both contact divs
+
+
+/*
+var height = Math.max(jQuery(".contact_left").height(), jQuery(".contact_right").height());
+    jQuery(".contact_left").height(height);
+    jQuery(".contact_right").height(height);
+*/
 
 
 
