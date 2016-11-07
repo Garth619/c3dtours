@@ -31,6 +31,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick/slick-theme.css"/>
+<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/wow/css/libs/animate.css">
 <?php wp_head();?>
 <script>
   (function(d) {
@@ -304,7 +305,7 @@
 		
 		
 		
-		<section id="demo" class="threed_gallery">
+		<section id="demo" class="threed_gallery wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
 			
 
 			
@@ -315,36 +316,36 @@
 				
 				<div class="gallery_slide">
 				
-<!-- 				<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
@@ -555,6 +556,9 @@
 			
 			<div class="contact_left">
 				
+				
+				<div class="inner_contact_left">
+				
 				<div class="border_left_wrapper">
 					
 					<h1><a href="#contact">contact us</a></h1>
@@ -569,6 +573,9 @@
 				</div><!-- sub_headers -->
 				
 				
+				</div><!-- inner_contact_left -->
+				
+				
 			</div><!-- contact_left -->
 			
 			
@@ -579,7 +586,11 @@
 				
 				<div class="form_wrapper">
 					
+					<div class="inner_form">
+					
 					<?php gravity_form( 1, false, true, false, '', true );?>
+					
+					</div><!-- inner_form -->
 					
 				</div><!--form_wrapper -->
 				
@@ -626,10 +637,8 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script>
-<script>
+<script src="<?php bloginfo('template_directory');?>/wow/dist/wow.min.js"></script>
 
-		
-</script>
 
 
 

@@ -1039,8 +1039,13 @@ footer {
 	.contact_left {
 		float:left;
 		width:40%;
-		padding-top:0;
-		padding-bototm:0;
+		padding:0px;
+		.inner_contact_left {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
 		.border_left_wrapper {
 			
 			h1 {
@@ -1070,7 +1075,9 @@ footer {
 		padding-top:0;
 		padding-bottom:0;
 		.form_wrapper {
-			
+			.inner_form {
+				padding:65px 10px;
+			}
 			ul {
 				
 				li {

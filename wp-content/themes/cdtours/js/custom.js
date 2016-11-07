@@ -2,7 +2,9 @@
 
 jQuery(document).ready(function(){
 	
-	
+	// Wow Init
+
+new WOW().init();
 	
 	// Slides
 
@@ -236,11 +238,9 @@ jQuery('.gallery_tabs').slick({
 // Match Height for both contact divs
 
 
-/*
 var height = Math.max(jQuery(".contact_left").height(), jQuery(".contact_right").height());
     jQuery(".contact_left").height(height);
     jQuery(".contact_right").height(height);
-*/
 
 
 
@@ -276,4 +276,4 @@ jQuery(".back").click(function() {
 	
 	
 
-});
+}); // Document Ready
