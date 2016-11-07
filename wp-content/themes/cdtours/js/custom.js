@@ -1,21 +1,27 @@
-// Slides
+
 
 jQuery(document).ready(function(){
+	
+	
+	
+	// Slides
+
+// Mobile Top Nav
   
- jQuery('.top_slideshow_mobile').slick({
+ jQuery('#mobileslides').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
   fade: true,
-  asNavFor: '.slide_tabs'
+  asNavFor: '.slide_tabs.mobile'
 });
 
 
-jQuery('.slide_tabs').slick({
+jQuery('.slide_tabs.mobile').slick({
   slidesToShow: 4,
 //   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
   slidesToScroll: 1,
-  asNavFor: '.top_slideshow_mobile',
+  asNavFor: '#mobileslides',
   dots: true,
 //   centerMode: true,
   focusOnSelect: true,
@@ -29,7 +35,45 @@ jQuery('.slide_tabs').slick({
       }
     }
    ]
-	});    
+	});  
+	
+	
+	
+	// Desktop Top Nav with Video
+
+	
+	
+	
+jQuery('#desktopslides').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slide_tabs.desktop'
+});
+
+
+jQuery('.slide_tabs.desktop').slick({
+  slidesToShow: 4,
+//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
+  slidesToScroll: 1,
+  asNavFor: '#desktopslides',
+  dots: true,
+//   centerMode: true,
+  focusOnSelect: true,
+  arrows: false,
+	responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   ]
+	});  
+	
+	  
  
 // Mobile Menu
 

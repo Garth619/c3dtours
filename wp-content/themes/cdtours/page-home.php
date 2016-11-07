@@ -66,7 +66,7 @@
 			<div class="nav_wrap_inner">
 				
 				<ul>
-					<li><a href="">555.555.5555</a></li>
+					<li><a href="tel:5555555555">555.555.5555</a></li>
 					<li><a href="#demo">3D Gallery Demo</a></li>
 					<li><a href="#industries">Industries</a></li>
 					<li><a href="#floorplan">Floor Plan</a></li>
@@ -89,7 +89,7 @@
 				<li><a href="#industries">Industries</a></li>
 				<li><a href="#floorplan">Floor Plan</a></li>
 				<li><a href="#contact">Contact Us</a></li>
-				<li><a href="">555.555.5555</a></li>
+				<li><a href="tel:5555555555">555.555.5555</a></li>
 			</ul>
 			
 		</nav><!-- desktop_nav -->
@@ -102,7 +102,7 @@
 		
 	
 		
-		<section class="top_slideshow_mobile stickem-container">
+		<section id="mobileslides" class="top_slideshow stickem-container">
 		
 			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
 			
@@ -173,9 +173,9 @@
 		
 	
 		
-		<div class="slide_tabs_wrapper stickem">
+		<div id="mobile_tabs_wrapper" class="slide_tabs_wrapper stickem">
 		
-			<nav class="slide_tabs">
+			<nav class="slide_tabs mobile">
 			
 				<div class="slide_tabs_title">Homes</div>
 				<div class="slide_tabs_title">Restaurants</div>
@@ -185,6 +185,122 @@
 		</nav><!-- slide_tabs -->
 		
 		</div><!-- slide_tabs_wrapper -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<section id="desktopslides" class="top_slideshow stickem-container">
+		
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Home</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Restaurants</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Breweries</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Commercial</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+		</section><!-- top_slideshow_mobile -->
+		
+	
+		
+		<div id="desktop_tabs_wrapper" class="slide_tabs_wrapper stickem">
+		
+			<nav class="slide_tabs desktop">
+			
+				<div class="slide_tabs_title">Homes</div>
+				<div class="slide_tabs_title">Restaurants</div>
+				<div class="slide_tabs_title">Breweries</div>
+				<div class="slide_tabs_title">Commercial</div>
+				
+		</nav><!-- slide_tabs -->
+		
+		</div><!-- slide_tabs_wrapper -->
+		
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		<section id="demo" class="threed_gallery">
 			
