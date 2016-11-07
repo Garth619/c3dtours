@@ -306,7 +306,7 @@
 		
 		<section id="demo" class="threed_gallery">
 			
-<!-- 			<div id="demo" class="gallery_tag">hellp</div> -->
+
 			
 			<h1>3D Gallery</h1>
 			
@@ -362,8 +362,18 @@
 					<div class="single_gallery_tab">
 						
 						<div class="inner_gallery_tab">
+							
+						
+						<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
+						
 						
 						<img src="<?php bloginfo('template_directory');?>/images/house.jpg"/>
+						
+						
 						
 						</div><!-- inner_gallery_tab -->
 						
@@ -372,6 +382,12 @@
 					<div class="single_gallery_tab">
 						
 						<div class="inner_gallery_tab">
+							
+							<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
 						
 						<img src="<?php bloginfo('template_directory');?>/images/restuarant.jpg"/>
 						
@@ -382,6 +398,12 @@
 					<div class="single_gallery_tab">
 						
 						<div class="inner_gallery_tab">
+							
+							<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
 						
 						<img src="<?php bloginfo('template_directory');?>/images/brew.jpg"/>
 						
@@ -392,6 +414,12 @@
 					<div class="single_gallery_tab">
 						
 						<div class="inner_gallery_tab">
+							
+							<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
 						
 						<img src="<?php bloginfo('template_directory');?>/images/comm.jpg"/>
 						
@@ -402,6 +430,12 @@
 					<div class="single_gallery_tab">
 						
 						<div class="inner_gallery_tab">
+							
+							<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
 						
 						<img src="<?php bloginfo('template_directory');?>/images/comm2.jpg"/>
 						
@@ -413,7 +447,13 @@
 						
 						<div class="inner_gallery_tab">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/comm3.jpg"/>
+							<div class="gallery_overlay">
+							
+							<span class="content">Title Goes Here</span><!-- content -->
+						
+						</div><!-- gallery_overlay -->
+						
+							<img class="" src="<?php bloginfo('template_directory');?>/images/comm3.jpg"/>
 						
 						</div>
 						
