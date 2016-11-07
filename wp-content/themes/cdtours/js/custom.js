@@ -94,7 +94,7 @@ jQuery('.threed_gallery_slideshow').slick({
 jQuery('.gallery_tabs').slick({
   slidesToShow: 4,
 //   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   asNavFor: '.threed_gallery_slideshow',
   dots: false,
 //   centerMode: true,
@@ -104,7 +104,7 @@ jQuery('.gallery_tabs').slick({
     {
       breakpoint: 800,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     }
