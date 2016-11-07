@@ -312,7 +312,7 @@ header {
 			}
 		}
 		.gallery_tabs {
-			
+			cursor: pointer;
 			.single_gallery_tab {
 				width:100%;
 				
@@ -331,13 +331,14 @@ header {
 	.inner_gallery_tab {
 		margin-right:6px !important;
 		position: relative;
+		cursor: pointer;
 		.gallery_overlay {
 			width:100%;
 			height:100%;
 			position: absolute;
 			top:0;
 			left:0;
-			background:rgba(0, 0, 0, 0.6);
+			background:rgba(0, 0, 0, 0.5);
 			z-index:500;
 			text-align: center;
 			span.content {
@@ -422,6 +423,7 @@ header {
 		display: inline-block;
 		
 	}
+	.inner_industies {
 	.indus_box_wrapper {
 		padding-bottom:100px;
 		.indus_content {
@@ -434,6 +436,12 @@ header {
 				text-transform: uppercase;
 				font-weight: 300;
 				font-style: normal;
+			}
+			p {
+				margin-bottom:15px;
+				&:last-of-type {
+					margin-bottom:0;
+				}
 			}
 		}
 		.indus_thumbs_wrapper {
@@ -452,6 +460,7 @@ header {
 				width:100%;
 				text-align: center;
 			}
+		}
 		}
 	}
 }
@@ -677,72 +686,27 @@ footer {
 }
 
 .threed_gallery {
-	
-	
-	h1 {
-		
-	}
 	.threed_gallery_slideshow {
-		
 		.gallery_slide {
-			
 			iframe {
 				height:700px;
 			}
 		}
-		.gallery_tabs {
-			
-			.single_gallery_tab {
-				
-				
-				
-				.slick-slide {
-					img {
-					
-					}
-				}
-			}
-		}
 	}
-	
-	
 	.inner_gallery_tab {
-		
 		.gallery_overlay {
-			
+			opacity: 1;
+			transition:all .2s ease-in-out;
 			span.content {
-				
+				font-size:20px;
+			}
+			&:hover {
+				opacity: 0;
 			}
 		}
 	}
-	
-	
-	.slick-slide {
-		img {
-		
-		}
-	}
-	
-	
-	
-	
 	.threed_lower_content {
 	
-		h2 {
-			
-		}
-		h2:before {
-			
-		}
-		img.cam {
-			
-		}
-		h3 {
-			
-		}
-		p {
-			
-		}
 	}
 }
 	
@@ -781,6 +745,7 @@ footer {
 					&:last-of-type {
 						background:$orangelight;
 						border-bottom:1px solid $orangelight;
+						width:16.25%;
 					}
 					&:nth-last-of-type(2) {
 							a {
@@ -853,7 +818,7 @@ footer {
 	
 	
 #desktopslides {
-	margin-top:52px;
+	margin-top:59px;
 	display: block;
 	.top_slide {
 		width:100%;
@@ -922,7 +887,54 @@ footer {
 	}
 	
 	
+/* Gallery */	
 	
+
+
+#demo {
+	padding-bottom:0;
+}
+
+
+.threed_gallery {
+	.threed_gallery_slideshow {
+		.gallery_slide {
+			iframe {
+				
+			}
+		}
+	}
+	.inner_gallery_tab {
+		.gallery_overlay {
+			
+			span.content {
+				
+			}
+			&:hover {
+				
+			}
+		}
+	}
+	.threed_lower_content {
+		overflow: hidden;
+		margin-top:30px;
+		h3 {
+			text-align: left;
+		}
+		.left_col {
+			float:left;
+			width:50%;
+		}
+		.right_col {
+			float:right;
+			width:50%;
+			margin-top:60px;
+			padding-left:45px;
+			padding-right:45px;
+		}
+		
+	}
+}
 	
 
 	
@@ -936,8 +948,73 @@ footer {
 		top:-59px;
 	}
 	
+	.industries_section {
+		h1.indus_title {
+			margin:200px 0 0 6%;
+			
+		
+		}
+		.inner_industies {
+			max-width:1200px;
+			padding:0 0 0 5%;
+			margin:0 auto;
+			overflow: hidden;
+			.indus_box_wrapper {
+				float:right;
+				width:60%;
+				padding-bottom: 0;
+				max-width:700px;
+				margin:90px 0;
+				
+				.indus_content {
+					margin-top:0;
+					padding:45px;
+				}
+			}
+		}
+	}
+	
+	
+
+	
+	
 	
 	/* Floor Plan */
+
+.floor_plan {
+	padding:70px 0;
+	h1 {
+		
+	}
+	.floor_plan_content {
+		
+		h2 {
+			width:79%;
+			margin:0 auto;
+		}
+		ul {
+			width:52%;
+			li {
+				
+				span {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	#floorplan {
+		max-width:1100px;
+		margin:0 auto;
+	}
+	
+	
 	
 	.floorplan_tag {
 		position: absolute;
@@ -945,6 +1022,84 @@ footer {
 	}
 	
 	/* Contact Us */
+	
+	
+	
+	/* Contact Us */
+	
+	.contact_us {
+		overflow: hidden;
+	}
+
+
+	.contact_left {
+		float:left;
+		width:40%;
+		.border_left_wrapper {
+			
+			h1 {
+				
+				a {
+					
+				}
+			}
+		}
+		.sub_headers {
+			
+			span.contact_or {
+							}
+			a.mybutton {
+				
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	.contact_right {
+		float:right;
+		width:60%;
+		.form_wrapper {
+			
+			ul {
+				
+				li {
+					
+					label {
+						
+					}
+					input, textarea {
+						
+					}
+					input {
+						
+					}
+					textarea {
+						
+					}
+				}
+			}
+		}
+		.gform_description {
+			
+			a {
+				
+			}
+		}
+		.gform_button {
+			
+		}
+		.leavereview_wrapper {
+			
+			span {
+				
+			}
+		}
+	}
+	
+	
 	
 	.contact_tag {
 		position: absolute;

@@ -234,6 +234,8 @@ jQuery('.gallery_tabs').slick({
 
 
 
+
+
 	
 // Leave a Review 
 

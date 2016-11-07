@@ -315,37 +315,36 @@
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 				<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+					<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
@@ -465,15 +464,24 @@
 			
 			<div class="threed_lower_content">
 			
-				<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
-			
-				<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
-			
-				<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				<div class="left_col">
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+			
+					<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+				
+				</div><!-- left_col -->
+				
+				<div class="right_col">
+			
+					<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+				</div><!-- right_col -->
 			
 			</div><!-- threed_lower_content -->
 			
@@ -481,6 +489,7 @@
 		
 		<section id="industries" class="industries_section">
 			
+			<div class="inner_industies">
 
 			
 			<h1 class="indus_title">Industries</h1>
@@ -488,26 +497,32 @@
 			
 			<div class="indus_box_wrapper">
 			
-			<div class="indus_content">
+				<div class="indus_content">
 				
-				<h1>Restaurants</h1>
+					<h1>Restaurants</h1>
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
 				
-			</div><!-- indus_content -->
+				</div><!-- indus_content -->
 			
-			<div class="indus_thumbs_wrapper">
+				<div class="indus_thumbs_wrapper">
 				
-				<div class="indus_thumbs">Homes</div>
+					<div class="indus_thumbs">Homes</div>
 <!--
 				<div class="indus_thumbs">Restaurants</div>
 				<div class="indus_thumbs">Breweries</div>
 				<div class="indus_thumbs">Commercial</div>
 -->
 				
-			</div><!-- indus_thumbs -->
+				</div><!-- indus_thumbs -->
 			
-			</div><!-- indus_box_wrapper -->
+				</div><!-- indus_box_wrapper -->
+			
+			</div><!-- inner_industies -->
 			
 		</section><!-- industries -->
 		
