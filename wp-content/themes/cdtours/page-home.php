@@ -179,7 +179,7 @@
 		
 			<nav class="slide_tabs mobile">
 			
-				<div class="slide_tabs_title">Homes</div>
+				<div class="slide_tabs_title">Residential</div>
 				<div class="slide_tabs_title">Restaurants</div>
 				<div class="slide_tabs_title">Breweries</div>
 				<div class="slide_tabs_title">Commercial</div>
@@ -276,7 +276,7 @@
 		
 			<nav class="slide_tabs desktop">
 			
-				<div class="slide_tabs_title">Homes</div>
+				<div class="slide_tabs_title">Residential</div>
 				<div class="slide_tabs_title">Restaurants</div>
 				<div class="slide_tabs_title">Breweries</div>
 				<div class="slide_tabs_title">Commercial</div>
@@ -313,7 +313,115 @@
 			<div class="threed_gallery_slideshow">
 				
 				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+				
+				</div><!-- gallery_slide -->
+				
+				
+				
+				
+				
 			</div><!-- threed_gallery_slideshow -->
+			
+			
+			
+			<div class="gallery_tabs">
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/house.jpg"/>
+						
+						</div><!-- inner_gallery_tab -->
+						
+					</div><!-- single_gallery_tab -->
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/restuarant.jpg"/>
+						
+						</div><!-- inner_gallery_tab -->
+						
+					</div><!-- single_gallery_tab -->
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/brew.jpg"/>
+						
+						</div>
+						
+					</div><!-- single_gallery_tab -->
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/comm.jpg"/>
+						
+						</div>
+						
+					</div><!-- single_gallery_tab -->
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/comm2.jpg"/>
+						
+						</div>
+						
+					</div><!-- single_gallery_tab -->
+					
+					<div class="single_gallery_tab">
+						
+						<div class="inner_gallery_tab">
+						
+						<img src="<?php bloginfo('template_directory');?>/images/comm3.jpg"/>
+						
+						</div>
+						
+					</div><!-- single_gallery_tab -->
+					
+				</div><!-- gallery_tabs -->
+			
+			
 			
 			<div class="threed_lower_content">
 			

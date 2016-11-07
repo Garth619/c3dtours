@@ -39,7 +39,7 @@ jQuery('.slide_tabs.mobile').slick({
 	
 	
 	
-	// Desktop Top Nav with Video
+// Desktop Top Nav with Video
 
 	
 	
@@ -72,6 +72,47 @@ jQuery('.slide_tabs.desktop').slick({
     }
    ]
 	});  
+
+
+
+
+
+// Gallery Matterport Iframes
+
+	
+	
+	
+jQuery('.threed_gallery_slideshow').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.gallery_tabs'
+});
+
+
+jQuery('.gallery_tabs').slick({
+  slidesToShow: 4,
+//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
+  slidesToScroll: 1,
+  asNavFor: '.threed_gallery_slideshow',
+  dots: false,
+//   centerMode: true,
+  focusOnSelect: true,
+  arrows: true,
+	responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   ]
+	});  
+
+
+
 	
 	  
  
