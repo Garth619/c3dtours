@@ -100,12 +100,15 @@ jQuery('.gallery_tabs').slick({
 //   centerMode: true,
   focusOnSelect: true,
   arrows: true,
+  prevArrow: ".gallery_prev",
+	nextArrow: ".gallery_next",
 	responsive: [
     {
       breakpoint: 800,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows:false
       }
     }
    ]
