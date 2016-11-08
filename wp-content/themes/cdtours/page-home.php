@@ -111,7 +111,7 @@
 			
 				<div class="blue_overlay">
 				
-					<div class="slide_content">
+					<div class="slide_content wow fadeIn" data-wow-delay="1s">
 					
 						<h1>Home</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
@@ -318,7 +318,7 @@
 		
 		
 
-	<section id="demo" class="threed_gallery wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+	<section id="demo" class="threed_gallery wow fadeInUp" data-wow-delay="1s">
 			
 
 			
@@ -335,30 +335,26 @@
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
+			
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- <iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
@@ -479,7 +475,7 @@
 			<div class="threed_lower_content">
 			
 				
-				<div class="left_col">
+				<div class="left_col wow fadeInUp" data-wow-delay="1s">
 				
 					<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
 			
@@ -487,7 +483,7 @@
 				
 				</div><!-- left_col -->
 				
-				<div class="right_col">
+				<div class="right_col wow fadeInUp" data-wow-delay="1s">
 			
 					<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
 				
@@ -506,10 +502,10 @@
 			<div class="inner_industies">
 
 			
-			<h1 class="indus_title">Industries</h1>
+			<h1 class="indus_title wow fadeInUp" data-wow-delay="1s">Industries</h1>
 			
 			
-			<div class="indus_box_wrapper">
+			<div class="indus_box_wrapper wow fadeInUp" data-wow-delay="1s">
 			
 				<div class="indus_content">
 				
@@ -540,7 +536,7 @@
 			
 		</section><!-- industries -->
 		
-		<section id="floorplan" class="floor_plan">
+		<section id="floorplan" class="floor_plan wow fadeInUp" data-wow-delay="1s">
 			
 <!-- 			<a class="floorplan_tag" name="floorplan"></a> -->
 			
