@@ -206,13 +206,13 @@
 					
 				</div><!-- blue_overlay -->
 				
-				<video id="myvideo" poster="<?php bloginfo( 'template_directory' ); ?>/images/video-screenshot.jpg" muted autoplay loop>
+				<video id="myvideo" poster="" muted autoplay loop>
 					
 					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.mp4" type='video/mp4' />
 					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.webm" type='video/webm' />
 					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.ogv" type='video/ogg' />
 
-					<img src="<?php bloginfo( 'template_directory' ); ?>/images/video-screenshot.jpg" />
+					<img src="" />
 				
 				</video>
 				
@@ -233,9 +233,19 @@
 					
 				</div><!-- blue_overlay -->
 				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.webm" type='video/webm' />
+					
+
+					<img src="" />
+				
+				</video>
+				
 			</div><!-- top_slide -->
 			
-			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			<div class="top_slide">
 			
 				<div class="blue_overlay">
 				
@@ -249,9 +259,21 @@
 					
 				</div><!-- blue_overlay -->
 				
+				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.webm" type='video/webm' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.ogv" type='video/ogg' />
+
+					<img src="" />
+				
+				</video>
+				
+				
 			</div><!-- top_slide -->
 			
-			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			<div class="top_slide">
 			
 				<div class="blue_overlay">
 				
@@ -264,6 +286,16 @@
 					</div><!-- slide_content -->
 					
 				</div><!-- blue_overlay -->
+				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.webm" type='video/webm' />
+					
+
+					<img src="" />
+				
+				</video>
 				
 			</div><!-- top_slide -->
 			
