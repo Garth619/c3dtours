@@ -635,7 +635,7 @@ header {
 		.gform_button {
 			background: $orangelight;
 			border:none;
-			padding:5px 20px;
+			padding:10px 20px;
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			cursor: pointer;
@@ -798,7 +798,7 @@ footer {
 						background:$orangelight;
 					}
 					a.nav_active {
-						font-weight: bold;
+						
 						background:#fbfbfb;
 					}
 				}
@@ -1059,6 +1059,7 @@ footer {
 		float:left;
 		width:40%;
 		padding:0px;
+		height:512px;
 		.inner_contact_left {
 			position: relative;
 			top: 50%;
@@ -1091,14 +1092,22 @@ footer {
 	.contact_right {
 		float:right;
 		width:60%;
-		padding-top:0;
-		padding-bottom:0;
+		padding:0 5%;
+		height:512px;
 		.form_wrapper {
 			.inner_form {
 				padding:65px 10px;
 			}
 			ul {
-				
+				overflow: hidden;
+				li#field_1_1, li#field_1_4 {
+					float:left;
+					width:49%;
+				}
+				li#field_1_2, li#field_1_3 {
+					float:right;
+					width:49%;
+				}
 				li {
 					
 					label {
@@ -1123,6 +1132,7 @@ footer {
 			}
 		}
 		.gform_button {
+			float:right;
 			
 		}
 		.leavereview_wrapper {
@@ -1135,12 +1145,32 @@ footer {
 	
 	
 	
-/*
+
 	.contact_tag {
 		position: absolute;
 		top:-59px;
 	}
-*/
+
+
+
+
+
+footer {
+	overflow: hidden;
+	padding:10px 25px;
+	span {
+		float:left;
+		padding:10px 0 0 0;
+	}
+	.social_icons_wrapper {
+		float:right;
+	}
+}
+
+
+
+
+
 	
 	
 	

@@ -238,9 +238,11 @@ jQuery('.gallery_tabs').slick({
 // Match Height for both contact divs
 
 
+/*
 var height = Math.max(jQuery(".contact_left").height(), jQuery(".contact_right").height());
     jQuery(".contact_left").height(height);
     jQuery(".contact_right").height(height);
+*/
 
 
 
@@ -254,7 +256,7 @@ jQuery(".leavereview_wrapper").hide();
 jQuery(".leaveareview").click(function() {
 	
 	jQuery(".form_wrapper").fadeOut(600);
-	jQuery(".contact_right").css("height","600px");
+	jQuery(".contact_right").css("height","512px");
 	jQuery(".leavereview_wrapper").delay(300).fadeIn(600);
 		
 });
