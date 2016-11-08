@@ -190,21 +190,9 @@
 		</div><!-- slide_tabs_wrapper -->
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<section id="desktopslides" class="top_slideshow stickem-container">
 		
-			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
+			<div class="top_slide">
 			
 				<div class="blue_overlay">
 				
@@ -217,6 +205,16 @@
 					</div><!-- slide_content -->
 					
 				</div><!-- blue_overlay -->
+				
+				<video id="myvideo" poster="<?php bloginfo( 'template_directory' ); ?>/images/video-screenshot.jpg" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.webm" type='video/webm' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.ogv" type='video/ogg' />
+
+					<img src="<?php bloginfo( 'template_directory' ); ?>/images/video-screenshot.jpg" />
+				
+				</video>
 				
 			</div><!-- top_slide -->
 			
@@ -287,25 +285,8 @@
 		</div><!-- slide_tabs_wrapper -->
 		
 		
-		
-		
-		
-		
-		
-				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<section id="demo" class="threed_gallery wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+
+	<section id="demo" class="threed_gallery wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
 			
 
 			
@@ -316,36 +297,36 @@
 				
 				<div class="gallery_slide">
 				
-<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
+<!-- <iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 				
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
+				
+				</div><!-- gallery_slide -->
+				
+				<div class="gallery_slide">
+				
+<!-- <iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>  -->
 				
 				</div><!-- gallery_slide -->
 				
