@@ -329,37 +329,37 @@
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 			
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 					
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
+<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
 				
 				</div><!-- gallery_slide -->
 				
@@ -612,7 +612,7 @@
 					
 					<span>Leave a review</span>
 					
-					<span class="back">Back</span>
+					<span class="back">Back Button</span>
 					
 				</div><!-- leavereview_wrapper -->
 				

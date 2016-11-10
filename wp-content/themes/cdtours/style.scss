@@ -656,6 +656,12 @@ header {
 		}
 	}
 	
+	.back {
+		display: block !important;
+		cursor: pointer;
+	}
+
+	
 	
 	.contact_tag {
 		position: absolute;
@@ -1136,15 +1142,15 @@ footer {
 			
 		}
 		.leavereview_wrapper {
-			
+			margin:65px 0;
 			span {
-				
+				display: block;
 			}
 		}
 	}
 	
 	
-	
+		
 
 	.contact_tag {
 		position: absolute;

@@ -263,7 +263,7 @@ jQuery(".leaveareview").click(function() {
 
 
 
-jQuery(".back").click(function() {
+jQuery(".back, .contact_left h1 a").click(function() {
 	
 	jQuery(".leavereview_wrapper").fadeOut(600);
 	//jQuery(".contact_right").css("height","600px");
