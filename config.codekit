@@ -9739,6 +9739,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/cdtours\/images\/myarrow-left.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1885,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/myarrow-left.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/myarrow-left.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/cdtours\/images\/myarrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1872,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/myarrow.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/myarrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/cdtours\/images\/rest.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9757,6 +9779,17 @@
 		"initialSize": 56923,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/restuarant.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/restuarant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/cdtours\/images\/shannon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5247,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/shannon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/cdtours\/images\/shannon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

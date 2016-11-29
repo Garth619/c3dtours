@@ -113,9 +113,16 @@
 				
 					<div class="slide_content wow fadeIn" data-wow-delay="1s">
 					
-						<h1>Home</h1>	
+						<h1>Residential</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+						
+						<div class="myarrow_wrapper">
+						
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow-left.png"/>
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow.png"/>
+						
+						</div><!-- myarrow_wrapper -->
 				
 					</div><!-- slide_content -->
 					
@@ -147,7 +154,7 @@
 					<div class="slide_content">
 					
 						<h1>Breweries</h1>	
-						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing eliit amet, consectetur adipist, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
@@ -163,7 +170,7 @@
 					<div class="slide_content">
 					
 						<h1>Commercial</h1>	
-						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<h2>Lorem ipsum r adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
 					</div><!-- slide_content -->
@@ -198,7 +205,7 @@
 				
 					<div class="slide_content wow fadeIn" data-wow-delay="1s">
 					
-						<h1>Home</h1>	
+						<h1>Residential</h1>	
 						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
 						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
 				
@@ -329,37 +336,37 @@
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+				<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+ 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
 			
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 				
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
 				
 				</div><!-- gallery_slide -->
 				
 				<div class="gallery_slide">
 					
-<!-- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> -->
+					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
 				
 				</div><!-- gallery_slide -->
 				
