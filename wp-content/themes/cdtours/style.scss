@@ -319,7 +319,7 @@ header {
 	h1 {
 		font-style: normal;
 		font-weight: 300;
-		font-size:38px;
+		font-size:34px;
 		text-transform: uppercase;
 		letter-spacing:3px;
 		border-left:2px solid $orangelight;
@@ -559,7 +559,7 @@ header {
 			text-align: center;
 			h1 {
 				font-family: "utopia-std",sans-serif;
-				font-size: 45px;
+				font-size: 52px;
 				font-style: italic;
 				text-transform: lowercase;
 // 				letter-spacing:3px;
@@ -720,7 +720,11 @@ footer {
 }
 
 .threed_gallery {
+	h1 {
+			font-size:38px;
+		}
 	.threed_gallery_slideshow {
+		
 		.gallery_slide {
 			iframe {
 				height:700px;
