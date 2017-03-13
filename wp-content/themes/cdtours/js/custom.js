@@ -10,6 +10,7 @@ new WOW().init();
 
 // Mobile Top Nav
   
+/*
  jQuery('#mobileslides').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -21,11 +22,10 @@ new WOW().init();
 
 jQuery('.slide_tabs.mobile').slick({
   slidesToShow: 4,
-//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
-  slidesToScroll: 1,
+	slidesToScroll: 1,
   asNavFor: '#mobileslides',
   dots: true,
-//   centerMode: true,
+
   focusOnSelect: true,
   arrows: false,
 	responsive: [
@@ -39,6 +39,7 @@ jQuery('.slide_tabs.mobile').slick({
    ]
 	});  
 	
+*/
 	
 	
 // Desktop Top Nav with Video
@@ -46,6 +47,7 @@ jQuery('.slide_tabs.mobile').slick({
 	
 	
 	
+/*
 jQuery('#desktopslides').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -57,11 +59,11 @@ jQuery('#desktopslides').slick({
 
 jQuery('.slide_tabs.desktop').slick({
   slidesToShow: 4,
-//   slidesToShow: 3, if centermode is turned on, you need to drop the this number to be less than actual # of itmes
+
   slidesToScroll: 1,
   asNavFor: '#desktopslides',
   dots: true,
-//   centerMode: true,
+
   focusOnSelect: true,
   arrows: false,
 	responsive: [
@@ -74,6 +76,7 @@ jQuery('.slide_tabs.desktop').slick({
     }
    ]
 	});  
+*/
 
 
 

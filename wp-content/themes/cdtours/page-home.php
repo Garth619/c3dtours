@@ -346,6 +346,29 @@
 			
 			</div><!-- threed_lower_content -->
 			
+			<div class="threed_lower_content">
+			
+				
+				<div class="left_col wow fadeInUp" data-wow-delay="1s">
+				
+					<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+			
+					<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+				
+				</div><!-- left_col -->
+				
+				<div class="right_col wow fadeInUp" data-wow-delay="1s">
+			
+					<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				
+				</div><!-- right_col -->
+			
+			</div><!-- threed_lower_content -->
+			
 		</section><!-- 3D Gallery -->
 		
 		<section id="industries" class="industries_section">
