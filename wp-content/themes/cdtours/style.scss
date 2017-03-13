@@ -56,7 +56,7 @@ body {
 
 header {
 // 	overflow:hidden;
-	background: #fff;
+	background: #1e1e1e;
 	position: fixed;
 	top:0;
 	width: 100%;
@@ -73,9 +73,9 @@ header {
 			cursor: pointer;
 			.mobile_bars {
 				width:100%;
-				height:4px;
-				margin-bottom:3px;
-				background: #000;
+				height:3px;
+				margin-bottom:4px;
+				background: #fff;
 				transition:all .2s ease-in-out;
 			}
 			&.open {
@@ -297,6 +297,107 @@ header {
 
 #desktop_tabs_wrapper {
 	display: none;
+}
+
+
+
+
+
+
+
+/* New Slides */
+
+
+.new_slides {
+	
+	
+	
+	.new_slides_inner_wrapper {
+		height:500px;
+		position: relative;
+		.new_slides_content {
+			position: relative;
+			top: 53%;
+			transform: translateY(-50%);
+			color:#fff;
+			font-weight:600;
+			text-align: center;
+			z-index: 5;
+			padding:0 10px;
+			span.subheader {
+				display: block;
+				font-size:24px;
+				letter-spacing: 0.9px;
+				line-height: 26px;
+			}
+			span.largeheader {
+				display: block;
+				font-size:42px;
+				line-height: 41px;
+				text-transform: uppercase;
+				margin-top:10px;
+			}
+			a.see_demo {
+				background: $orangelight;
+				color:#000;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: inline-block;
+				padding:8px 25px;
+				letter-spacing: 1px;
+				margin-top:25px;
+			}
+			.slider_buttons {
+				text-transform: uppercase;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-top:40px;
+				.arrow_down_wrapper {
+					width:13px;
+					height:6px;
+					margin: 0 auto 4px;
+					.arrow_down {
+						border-left: 6px solid transparent;
+						border-right: 6px solid transparent;
+						border-top: 6px solid $orangelight;
+					}
+				}
+				.top_button {
+					display: block;
+					margin-top:2px;
+					span {
+						letter-spacing:.7px;
+					}
+					&:after {
+						content:"";
+						width:100%;
+						height:1px;
+						background:$orangelight;
+						display: block;
+						margin-top:2px;
+					}
+				}
+				.divider {
+					width:2px;
+					height:35px;
+					background: #fff;
+					display: block;
+					margin:0 20px;
+					
+				}
+				
+			}
+		}
+		.new_slides_single {
+			background:linear-gradient(rgba(22, 22, 47, 0.45), rgba(22, 22, 47, 0.45)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url(images/newslide.jpg) top center;
+			width:100%;
+			height:500px;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	}
 }
 
 

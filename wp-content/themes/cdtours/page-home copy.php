@@ -51,7 +51,7 @@
 			
 			<div class="logo_wrapper">
 				<a href="#bodytop">
-					<img class="logo" src="<?php bloginfo('template_directory');?>/images/temp.png"/>
+					<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.jpg"/>
 				</a>
 			</div><!-- logo_wrapper -->
 			
@@ -102,66 +102,250 @@
 		
 		
 		
-	<section class="new_slides">
 		
-		
-		
-		<div class="new_slides_inner_wrapper">
-			
-			<div class="new_slides_content">
-			
-			<span class="subheader">eiusmod tempor incididunt ut</span><!-- subheader -->
-			<span class="largeheader">lorem ipsum DOLOR</span><!-- subheader -->
-			
-			<a class="see_demo" href="#demo">See Demo</a><!-- see_demo -->
-			
-			<div class="slider_buttons">
-				
-				
-				
-				<div class="commercial_button top_button">
-					
-					<div class="arrow_down_wrapper">
-				
-						<div class="arrow_down"></div><!-- arrow_down -->
-				
-					</div><!-- arrow_down_wrapper -->
-					
-					<span>Commercial</span>
-					
-				</div><!-- commercial_button -->
-				
-				<div class="divider"></div><!-- divider -->
-				
-				<div class="residential_button top_button">
-					
-					<div class="arrow_down_wrapper">
-				
-						<div class="arrow_down"></div><!-- arrow_down -->
-				
-					</div><!-- arrow_down_wrapper -->
-					
-					<span>Residential</span>
-					
-				</div><!-- residential_button -->
-				
-			</div><!-- slider_buttons -->
-			
-		</div><!-- new_slides_content -->
-			
-			<div class="new_slides_single">
-				
-				
-				
-			</div><!-- new_slides_single -->
-			
-		</div><!-- new_slides_inner_wrapper -->
-		
-		
-	</section><!-- new_slides -->
 	
 		
+		<section id="mobileslides" class="top_slideshow stickem-container">
+		
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/banner.jpg) top center no-repeat;background-size:cover;">
 			
+				<div class="blue_overlay">
+				
+					<div class="slide_content wow fadeIn" data-wow-delay="1s">
+					
+						<h1>Residential</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+						
+						<div class="myarrow_wrapper">
+						
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow-left.png"/>
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow.png"/>
+						
+						</div><!-- myarrow_wrapper -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Restaurants</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+						
+						<div class="myarrow_wrapper">
+						
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow-left.png"/>
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow.png"/>
+						
+						</div><!-- myarrow_wrapper -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Breweries</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing eliit amet, consectetur adipist, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+						
+						<div class="myarrow_wrapper">
+						
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow-left.png"/>
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow.png"/>
+						
+						</div><!-- myarrow_wrapper -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Commercial</h1>	
+						<h2>Lorem ipsum r adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+						
+						<div class="myarrow_wrapper">
+						
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow-left.png"/>
+							<img class="myarrow" width="30" src="<?php bloginfo('template_directory');?>/images/myarrow.png"/>
+						
+						</div><!-- myarrow_wrapper -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+			</div><!-- top_slide -->
+			
+		</section><!-- top_slideshow_mobile -->
+		
+	
+		
+		<div id="mobile_tabs_wrapper" class="slide_tabs_wrapper stickem">
+		
+			<nav class="slide_tabs mobile">
+			
+				<div class="slide_tabs_title">Residential</div>
+				<div class="slide_tabs_title">Restaurants</div>
+				<div class="slide_tabs_title">Breweries</div>
+				<div class="slide_tabs_title">Commercial</div>
+				
+		</nav><!-- slide_tabs -->
+		
+		</div><!-- slide_tabs_wrapper -->
+		
+		
+		<section id="desktopslides" class="top_slideshow stickem-container">
+		
+			<div class="top_slide">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content wow fadeIn" data-wow-delay="1s">
+					
+						<h1>Residential</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+<!--
+				<video id="myvideo" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.webm" type='video/webm' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.ogv" type='video/ogg' />
+
+					<img src="" />
+				
+				</video>
+-->
+				
+			</div><!-- top_slide -->
+			
+			
+			<div class="top_slide" style="background:url(<?php bloginfo('template_directory');?>/images/rest.jpg) top center no-repeat;background-size:cover;">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Restaurants</h1>	
+						<h2>Lorem ipsum dolor sitLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.webm" type='video/webm' />
+					
+
+					<img src="" />
+				
+				</video>
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Breweries</h1>	
+						<h2>LoremLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.webm" type='video/webm' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video.ogv" type='video/ogg' />
+
+					<img src="" />
+				
+				</video>
+				
+				
+			</div><!-- top_slide -->
+			
+			<div class="top_slide">
+			
+				<div class="blue_overlay">
+				
+					<div class="slide_content">
+					
+						<h1>Commercial</h1>	
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</h2>
+						<a class="demo_button" href="#demo">See Demo</a><!-- demo_button -->
+				
+					</div><!-- slide_content -->
+					
+				</div><!-- blue_overlay -->
+				
+				<video id="myvideo" poster="" muted autoplay loop>
+					
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.mp4" type='video/mp4' />
+					<source src="<?php bloginfo( 'template_directory' ); ?>/videos/video2.webm" type='video/webm' />
+					
+
+					<img src="" />
+				
+				</video>
+				
+			</div><!-- top_slide -->
+			
+		</section><!-- top_slideshow_mobile -->
+		
+	
+		
+		<div id="desktop_tabs_wrapper" class="slide_tabs_wrapper stickem">
+		
+			<nav class="slide_tabs desktop">
+			
+				<div class="slide_tabs_title">Residential</div>
+				<div class="slide_tabs_title">Restaurants</div>
+				<div class="slide_tabs_title">Breweries</div>
+				<div class="slide_tabs_title">Commercial</div>
+				
+		</nav><!-- slide_tabs -->
+		
+		</div><!-- slide_tabs_wrapper -->
+		
 		
 
 	<section id="demo" class="threed_gallery wow fadeInUp" data-wow-delay="1s">
