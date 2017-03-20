@@ -63,8 +63,9 @@ header {
 	height: 55px;
 		.logo_wrapper {
 			float:left;
-			margin-left:15px;
-			margin-top:10px;
+			padding-left:15px;
+			padding-top:10px;
+			padding-bottom: 5px;
 		}
 		.mobile_nav_wrapper {
 			float:right;
@@ -703,6 +704,7 @@ header {
 		cursor: pointer;
 		border-right:1px solid #484848;
 		transition: all .2s ease-in-out;
+		font-weight:600;
 		&:first-of-type {
 			border-left:1px solid #484848;
 		}
@@ -1011,75 +1013,72 @@ footer {
 	
 	.logo_wrapper {
 		width:19%;
-		border-right:1px solid #e9e9e9;
-		border-bottom:1px solid #e9e9e9;
+		border-right:1px solid #484848;
+		
 	}
 		.desktop_nav {
 			display: block;
 			ul {
 				list-style: none;
 				margin: 0;
+				display: flex;
+				justify-content: space-around;
 				li {
 					text-transform: uppercase;
 					float:left;
 					font-size:16px;
-					width:16.1%;
+					flex-grow: 1;
 					text-align: center;
 					&:last-of-type {
-						background:$orangelight;
 						border-bottom:1px solid $orangelight;
-						width:16.25%;
 					}
-					&:nth-last-of-type(2) {
-							a {
-								border-right: none;
-							}
-							
-						}
-					
 					a {
-						color:#323233;
+						color:#fff;
 						text-decoration: none;
-						border-right:1px solid #e9e9e9;
+						border-right:1px solid #484848;
 						display: block;
 						width:100%;
-						padding: 16px 0 17px;
-						border-bottom:1px solid #e9e9e9;
-						
+						padding: 15px;
+						font-weight: 600;
 						&:before {
 							content:"";
-							width:35px;
+							width:0px;
 							height:1px;
 							display: block;
 							margin: 0 auto 4px;
-							transition:all .3s ease-in-out;
+							background:$orangelight;
+							opacity: 0;
+							transition: all .3s ease-in-out;
 						}
 						&:hover {
 							
 							&:before {
-								background:$orangelight;
+								opacity: 1;
+								width:35px;
 								
 							}
 						}
 					}
 					a.nav_active:before {
 						content:"";
-						width:35px;
-						height:1px;
-						display: block;
-						margin: 0 auto 4px;
-						background:$orangelight;
+							width:35px;
+							height:1px;
+							display: block;
+							margin: 0 auto 4px;
+							background:$orangelight;
+							opacity: 1;
+							transition: all .3s ease-in-out;
 					}
 					a.nav_active {
 						
-						background:#fbfbfb;
+					
 					}
 				}
 				
 				li:last-of-type {
-					font-weight:600;
+					
 					a {
-						border:none;
+						color:$orangelight;
 						
 					}
 				}

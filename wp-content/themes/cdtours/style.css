@@ -60,8 +60,9 @@ header {
 
 header .logo_wrapper {
   float: left;
-  margin-left: 15px;
-  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 header .mobile_nav_wrapper {
@@ -675,6 +676,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   border-right: 1px solid #484848;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  font-weight: 600;
 }
 
 .industry_controls span:first-of-type {
@@ -967,8 +969,7 @@ footer .social_icons_wrapper img {
   }
   header .logo_wrapper {
     width: 19%;
-    border-right: 1px solid #e9e9e9;
-    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #484848;
   }
   header .desktop_nav {
     display: block;
@@ -976,42 +977,47 @@ footer .social_icons_wrapper img {
   header .desktop_nav ul {
     list-style: none;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   header .desktop_nav ul li {
     text-transform: uppercase;
     float: left;
     font-size: 16px;
-    width: 16.1%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     text-align: center;
   }
   header .desktop_nav ul li:last-of-type {
-    background: #efbf3e;
     border-bottom: 1px solid #efbf3e;
-    width: 16.25%;
-  }
-  header .desktop_nav ul li:nth-last-of-type(2) a {
-    border-right: none;
   }
   header .desktop_nav ul li a {
-    color: #323233;
+    color: #fff;
     text-decoration: none;
-    border-right: 1px solid #e9e9e9;
+    border-right: 1px solid #484848;
     display: block;
     width: 100%;
-    padding: 16px 0 17px;
-    border-bottom: 1px solid #e9e9e9;
+    padding: 15px;
+    font-weight: 600;
   }
   header .desktop_nav ul li a:before {
     content: "";
-    width: 35px;
+    width: 0px;
     height: 1px;
     display: block;
     margin: 0 auto 4px;
+    background: #efbf3e;
+    opacity: 0;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
   header .desktop_nav ul li a:hover:before {
-    background: #efbf3e;
+    opacity: 1;
+    width: 35px;
   }
   header .desktop_nav ul li a.nav_active:before {
     content: "";
@@ -1020,15 +1026,12 @@ footer .social_icons_wrapper img {
     display: block;
     margin: 0 auto 4px;
     background: #efbf3e;
-  }
-  header .desktop_nav ul li a.nav_active {
-    background: #fbfbfb;
-  }
-  header .desktop_nav ul li:last-of-type {
-    font-weight: 600;
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
   header .desktop_nav ul li:last-of-type a {
-    border: none;
+    color: #efbf3e;
   }
   #mobileslides {
     display: none;

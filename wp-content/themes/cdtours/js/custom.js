@@ -225,6 +225,8 @@ jQuery(".back, .contact_left h1 a").click(function() {
 
 jQuery('.commercial_slider').hide();
 
+jQuery('.industry_residential').addClass('control_active');
+
 
 jQuery('.industry_controls span').click(function(){
 	
