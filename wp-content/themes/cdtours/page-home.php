@@ -70,9 +70,9 @@
 				
 				<ul>
 					<li><a href="tel:5555555555">555.555.5555</a></li>
-					<li><a href="#demo">3D Gallery Demo</a></li>
-					<li><a href="#industries">Industries</a></li>
-					<li><a href="#floorplan">Floor Plan</a></li>
+					<li><a href="#demo">3D Gallery</a></li>
+					<li><a href="#industries">PHOTO GALLERY</a></li>
+					<li><a href="#floorplan">AS-BUILTS GALLERY</a></li>
 					<li><a href="#contact">Contact Us</a></li>
 					<li><a href="#contact" class="leaveareview">Leave a Review</a></li>
 					
@@ -88,9 +88,9 @@
 		<nav class="desktop_nav">
 			
 			<ul>
-				<li><a href="#demo">3D Gallery Demo</a></li>
-				<li><a href="#industries">Industries</a></li>
-				<li><a href="#floorplan">Floor Plan</a></li>
+				<li><a href="#demo">3D Gallery</a></li>
+				<li><a href="#industries">PHOTO GALLERY</a></li>
+				<li><a href="#floorplan">AS-BUILTS GALLERY</a></li>
 				<li><a href="#contact">Contact Us</a></li>
 				<li><a href="tel:5555555555">555.555.5555</a></li>
 			</ul>
@@ -364,7 +364,7 @@
 				
 					<div class="video_left_col wow fadeInUp" data-wow-delay="1s">
 				
-						<h3>Lorem ipsum dolor sit amet,consectetur</h3>
+						<h3>Lorem ipsum dolor sit amet, con se&nbsp;ctetur</h3>
 			
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
 						

@@ -592,7 +592,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 /* Industries */
 .industries_section {
-  height: 641px;
+  height: 500px;
   background: #d4d4d4;
   position: relative;
 }
@@ -602,7 +602,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   left: 0;
   width: 100%;
   position: absolute;
-  height: 592px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -620,7 +620,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   letter-spacing: 3px;
   border-left: 2px solid #efbf3e;
   padding: 35px 25px 10px;
-  margin: 65px 2px 35px 60px;
+  margin: 65px 2px 35px 4%;
   color: #fff;
   display: inline-block;
   position: relative;
@@ -659,6 +659,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 10;
 }
 
 .industry_controls span {
