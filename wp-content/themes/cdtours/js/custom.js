@@ -6,81 +6,31 @@ jQuery(document).ready(function(){
 
 new WOW().init();
 	
-	// Slides
+	
+	
+	
+// Main  Banner
 
-// Mobile Top Nav
-  
-/*
- jQuery('#mobileslides').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slide_tabs.mobile'
+
+jQuery('.new_slides_commercial').hide();
+
+
+jQuery('.commercial_button').click(function(){
+	
+	jQuery('.new_slides_commercial').fadeIn(400);
+	jQuery('.new_slides_residential').fadeOut(400);
+	
+	
 });
 
-
-jQuery('.slide_tabs.mobile').slick({
-  slidesToShow: 4,
-	slidesToScroll: 1,
-  asNavFor: '#mobileslides',
-  dots: true,
-
-  focusOnSelect: true,
-  arrows: false,
-	responsive: [
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-   ]
-	});  
+jQuery('.residential_button').click(function(){
 	
-*/
+	jQuery('.new_slides_commercial').fadeOut(400);
+	jQuery('.new_slides_residential').fadeIn(400);
 	
 	
-// Desktop Top Nav with Video
-
-	
-	
-	
-/*
-jQuery('#desktopslides').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slide_tabs.desktop'
 });
-
-
-jQuery('.slide_tabs.desktop').slick({
-  slidesToShow: 4,
-
-  slidesToScroll: 1,
-  asNavFor: '#desktopslides',
-  dots: true,
-
-  focusOnSelect: true,
-  arrows: false,
-	responsive: [
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-   ]
-	});  
-*/
-
-
-
-
+	
 
 // Gallery Matterport Iframes
 
@@ -200,6 +150,7 @@ jQuery('.gallery_tabs').slick({
 	// https://stanhub.com/sticky-header-change-navigation-active-class-on-page-scroll-with-jquery/
 	
 
+
 	jQuery(document).on("scroll", onScroll);
  
 		jQuery('a[href^="#"]').on('click', function (e) {
@@ -237,18 +188,6 @@ jQuery('.gallery_tabs').slick({
 		});
 	}
 
-
-// Match Height for both contact divs
-
-
-/*
-var height = Math.max(jQuery(".contact_left").height(), jQuery(".contact_right").height());
-    jQuery(".contact_left").height(height);
-    jQuery(".contact_right").height(height);
-*/
-
-
-
 	
 // Leave a Review 
 
@@ -274,6 +213,65 @@ jQuery(".back, .contact_left h1 a").click(function() {
 	
 });
 
+
+
+// Industry Slides
+
+jQuery('.commercial_slider').hide();
+
+
+jQuery('.industry_controls span').click(function(){
+	
+	jQuery(this).addClass('control_active');
+	jQuery('.industry_controls span').not(this).removeClass('control_active');
+	
+});
+
+
+jQuery('span.industry_commercial').click(function(){
+	
+	jQuery('.residential_slider').fadeOut(200);
+	jQuery('.commercial_slider').fadeIn(400);
+	
+	
+});
+
+
+jQuery('span.industry_residential').click(function(){
+	
+	jQuery('.residential_slider').fadeIn(400);
+	jQuery('.commercial_slider').fadeOut(200);
+	
+	
+});
+
+
+
+
+
+// https://jsfiddle.net/5sa2k2ao/1/
+
+
+/*
+jQuery('.regular').on('init', function(ev, el){
+    jQuery('video').each(function () {
+        this.play();
+    });
+});
+
+
+
+jQuery('.regular').slick({
+  
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  
+  
+  dots: true,
+  prevArrow: false,
+  nextArrow: false
+});
+*/
 
 
 

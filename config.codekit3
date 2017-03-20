@@ -9149,6 +9149,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/cdtours\/images\/mobileimage.jpg": {
+		"ft": 16384,
+		"iS": 128978,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/mobileimage.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/mobileimage2.jpg": {
+		"ft": 16384,
+		"iS": 85711,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/mobileimage2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/cdtours\/images\/myarrow-left.png": {
 		"ft": 32768,
 		"iS": 1885,
@@ -9347,11 +9365,558 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.autoheight.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.autoheight.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.caption.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.caption.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.command.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.command.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.core.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.core.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.hash.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.hash.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.loader.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.loader.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.pager.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.pager.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.prevnext.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.prevnext.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.progressive.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.progressive.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/jquery.cycle2.tmpl.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/core\/min\/jquery.cycle2.tmpl.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/jquery.cycle2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/min\/jquery.cycle2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/jquery.cycle2.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/jquery.cycle2.js.map",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/jquery.cycle2.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/min\/jquery.cycle2.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.caption2.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.caption2.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.carousel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.carousel.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.center.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.center.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.flip.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.flip.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.ie-fade.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.ie-fade.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.scrollVert.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.scrollVert.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.shuffle.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.shuffle.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.swipe.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.swipe.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.tile.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.tile.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/jquery.cycle2.video.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/build\/plugin\/min\/jquery.cycle2.video.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/cycle2.jquery.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/cycle2.jquery-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/min\/Gruntfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.autoheight.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.autoheight-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.caption.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.caption-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.caption2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.caption2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.carousel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.carousel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.center.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.center-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.command.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.command-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.core-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.flip.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.flip-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.hash.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.hash-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.ie-fade.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.ie-fade-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.loader.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.loader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.lookahead.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.lookahead-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.pager.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.pager-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.prevnext.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.prevnext-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.progressive.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.progressive-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.scrollVert.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.scrollVert-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.shuffle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.shuffle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.swipe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.swipe-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.tile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.tile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.tmpl.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.tmpl-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.cycle2.video.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.cycle2.video-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/jquery.tcycle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/src\/min\/jquery.tcycle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/cycle2\/tcycle.jquery.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/cycle2\/tcycle.jquery-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/wp-content\/themes\/cdtours\/js\/modernizr.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/cdtours\/js\/min\/modernizr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/component.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/component-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/min\/Gruntfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/index.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/cdtours\/js\/swipe\/swipe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/js\/swipe\/min\/swipe-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

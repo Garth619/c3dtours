@@ -119,20 +119,6 @@
 				
 				
 				
-				<div class="commercial_button top_button">
-					
-					<div class="arrow_down_wrapper">
-				
-						<div class="arrow_down"></div><!-- arrow_down -->
-				
-					</div><!-- arrow_down_wrapper -->
-					
-					<span>Commercial</span>
-					
-				</div><!-- commercial_button -->
-				
-				<div class="divider"></div><!-- divider -->
-				
 				<div class="residential_button top_button">
 					
 					<div class="arrow_down_wrapper">
@@ -143,14 +129,38 @@
 					
 					<span>Residential</span>
 					
+				</div><!-- commercial_button -->
+				
+				<div class="divider"></div><!-- divider -->
+				
+				<div class="commercial_button top_button">
+					
+					<div class="arrow_down_wrapper">
+				
+						<div class="arrow_down"></div><!-- arrow_down -->
+				
+					</div><!-- arrow_down_wrapper -->
+					
+					<span>Commercial</span>
+					
 				</div><!-- residential_button -->
 				
 			</div><!-- slider_buttons -->
 			
 		</div><!-- new_slides_content -->
 			
-			<div class="new_slides_single">
+			<div class="new_slides_single new_slides_residential" style="background:url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) top center;">
 				
+				<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay muted></video>
+				
+				<div class="new_slides_overlay"></div><!-- new_slides_overlay -->
+				
+				
+			</div><!-- new_slides_single -->
+			
+			<div class="new_slides_single new_slides_commercial" style="background: url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) top center;">
+				
+				<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay muted></video>
 				
 				
 			</div><!-- new_slides_single -->
@@ -372,46 +382,75 @@
 		
 		<section id="industries" class="industries_section">
 			
-			<div class="inner_industies">
+			
+			
+			<div class="industries_slide_wrapper residential_slider">
+				
+				
+				
+				<div class="single_industires_slide" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) no-repeat scroll center top / cover ;">
+					
+					
+					<div class="inner_content">
+						
+						<h1 class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project</span></h1>
+
+					</div><!-- inner_content -->
+					
+										
+					<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay></video>
+					
+					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+					
+				</div><!-- single_industires_slide -->
 
 			
-			<h1 class="indus_title wow fadeInUp" data-wow-delay="1s">Industries</h1>
+		
+		</div><!-- industries_slide_wrapper -->
 			
 			
-			<div class="indus_box_wrapper wow fadeInUp" data-wow-delay="1s">
 			
-				<div class="indus_content">
+			
+			<div class="industries_slide_wrapper commercial_slider">
 				
-					<h1>Restaurants</h1>
-				
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+				<div class="single_industires_slide">
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					<div class="single_industires_slide" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) no-repeat scroll center top / cover ;">
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+					<div class="inner_content">
+					
+						<h1 class="indus_title">Commercial<span>Name of project</span></h1>
+					
+					</div>
+					
+					<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay></video>
+					
+					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+					
+				</div><!-- single_industires_slide -->
+					
+				</div><!-- single_industires_slide -->
 				
-				</div><!-- indus_content -->
+			</div><!-- industries_slide_wrapper -->
 			
-				<div class="indus_thumbs_wrapper">
+			
+			
+			
+			
+			<div class="industry_controls">
 				
-					<div class="indus_thumbs">Homes</div>
-<!--
-				<div class="indus_thumbs">Restaurants</div>
-				<div class="indus_thumbs">Breweries</div>
-				<div class="indus_thumbs">Commercial</div>
--->
+				<span class="industry_residential">Residential</span><!-- industry_residential -->
+				<span class="industry_commercial">Commercial</span><!-- industry_commercial -->
 				
-				</div><!-- indus_thumbs -->
+			</div><!-- industry_controls -->
 			
-				</div><!-- indus_box_wrapper -->
-			
-			</div><!-- inner_industies -->
-			
-		</section><!-- industries -->
+
+	
+	</section><!-- industries -->
 		
 		<section id="floorplan" class="floor_plan wow fadeInUp" data-wow-delay="1s">
 			
-<!-- 			<a class="floorplan_tag" name="floorplan"></a> -->
+
 			
 			<h1>Floor Plans</h1>
 			
@@ -518,6 +557,7 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/cycle2/build/jquery.cycle2.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script>
 <script src="<?php bloginfo('template_directory');?>/wow/dist/wow.min.js"></script>
 

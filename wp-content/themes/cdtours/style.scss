@@ -59,7 +59,7 @@ header {
 	position: fixed;
 	top:0;
 	width: 100%;
-	z-index: 10;
+	z-index: 100;
 	height: 55px;
 		.logo_wrapper {
 			float:left;
@@ -322,7 +322,7 @@ header {
 			color:#fff;
 			font-weight:600;
 			text-align: center;
-			z-index: 5;
+			z-index: 10;
 			padding:0 10px;
 			span.subheader {
 				display: block;
@@ -346,6 +346,11 @@ header {
 				padding:8px 25px;
 				letter-spacing: 1px;
 				margin-top:25px;
+				transition: all .2s ease-in-out;
+				&:hover {
+					background:#000;
+					color: #fff;
+				}
 			}
 			.slider_buttons {
 				text-transform: uppercase;
@@ -354,6 +359,7 @@ header {
 				justify-content: center;
 				margin-top:40px;
 				display: none;
+				cursor: pointer;
 				.arrow_down_wrapper {
 					width:13px;
 					height:6px;
@@ -362,6 +368,17 @@ header {
 						border-left: 6px solid transparent;
 						border-right: 6px solid transparent;
 						border-top: 6px solid $orangelight;
+						opacity: 0;
+						transition: all .3s ease-in-out;
+					}
+				}
+				.top_button:hover {
+					.arrow_down {
+						opacity: 1;
+					}
+					&:after {
+						opacity: 1;
+						width:100%;
 					}
 				}
 				.top_button {
@@ -372,11 +389,13 @@ header {
 					}
 					&:after {
 						content:"";
-						width:100%;
+						width:0%;
 						height:1px;
 						background:$orangelight;
 						display: block;
-						margin-top:2px;
+						margin:2px auto 0;
+						opacity: 0;
+						transition: all .3s ease-in-out;
 					}
 				}
 				.divider {
@@ -391,12 +410,27 @@ header {
 			}
 		}
 		.new_slides_single {
-			background:linear-gradient(rgba(22, 22, 47, 0.45), rgba(22, 22, 47, 0.45)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url(images/newslide.jpg) top center;
+			overflow: hidden;
 			width:100%;
 			height:500px;
 			position: absolute;
 			top:0;
 			left:0;
+			video {
+				display: none;
+			}
+			.new_slides_overlay {
+				width:100%;
+				height:100%;
+				position: absolute;
+				top:0;
+				left:0;
+				background: rgba(0, 0, 0, 0.5);
+				z-index:5;
+			}
+		}
+		.new_slides_single.residential {
+			
 		}
 	}
 }
@@ -567,65 +601,128 @@ header {
 /* Industries */
 
 .industries_section {
-	background:url(images/industries.jpg) top center no-repeat;
-	background-size:cover;
-	width:100%;
+	height:641px;
+	background:#d4d4d4;
 	position: relative;
-// 	height:592px;
-	h1.indus_title {
-		font-style: normal;
-		font-weight: 300;
-		font-size:38px;
-		text-transform: uppercase;
-		letter-spacing:3px;
-		border-left:2px solid $orangelight;
-		padding:45px 25px 10px;
-		margin:65px 2px 35px 27px;
-		color:#fff;
-		display: inline-block;
+}
+
+
+.industries_slide_wrapper {
+	top:0;
+	left:0;
+	width:100%;
+	position: absolute;
+	height:592px;
+	overflow: hidden;
+	.single_industires_slide {
+		position: relative;
+		height:592px;
+		width:100%;
+	
+		h1.indus_title {
+			font-style: normal;
+			font-weight: 300;
+			font-size:38px;
+			text-transform: uppercase;
+			letter-spacing:3px;
+			border-left:2px solid $orangelight;
+			padding:35px 25px 10px;
+			margin:65px 2px 35px 60px;
+			color:#fff;
+			display: inline-block;
+			position: relative;
+			z-index:5;
+			span {
+				display: block;
+				font-size:20px;
+			}
+		}
+		video {
+			min-width:100%;
+			min-height:100%;
+			position: absolute;
+			top:0;
+			left:0;
+			display: none;
+		}
+		.slider_dark_overlay {
+			width:100%;
+			height:100%;
+			position: absolute;
+			top:0;
+			left:0;
+			z-index:4;
+			background:linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.15)) repeat scroll 0 0%, rgba(0, 0, 0, 0);
+		}
 		
 	}
-	.inner_industies {
-	.indus_box_wrapper {
-		padding-bottom:100px;
-		.indus_content {
-			background: #fff;
-			width:88%;
-			margin:13px auto 0;
-			padding:25px;
-			h1 {
-				margin-bottom:14px;
-				text-transform: uppercase;
-				font-weight: 300;
-				font-style: normal;
-			}
-			p {
-				margin-bottom:15px;
-				&:last-of-type {
-					margin-bottom:0;
-				}
-			}
+}
+
+
+
+
+
+
+
+.residential_slider {
+	
+}
+
+.commercial_slider {
+	
+}
+
+
+
+.industry_controls {
+	width:100%;
+	background:$black;
+	text-align: center;
+	position: absolute;
+	bottom:0;
+	left:0;
+	span {
+		color:#fff;
+		padding:15px 20px;
+		text-align: center;
+		display: inline-block;
+		height:49px;
+		font-size:16px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		cursor: pointer;
+		border-right:1px solid #484848;
+		transition: all .2s ease-in-out;
+		&:first-of-type {
+			border-left:1px solid #484848;
 		}
-		.indus_thumbs_wrapper {
-			background: $black;
-			width:88%;
-			margin:0 auto;
-			
-			.indus_thumbs {
-				color:#717171;
-				text-transform: uppercase;
-				font-weight:400;
-				letter-spacing:2px;
-				display: inline-block;
-				padding:13px 0;
-//	 			border-right:1px solid #3c3c3c;
-				width:100%;
-				text-align: center;
-			}
-		}
+		&:after {
+			content:"";
+			width:65px;
+			height:1px;
+			opacity: 0;
+			display: block;
+			background: $orangelight;
+			margin:2px auto 0;
+			transition: all .2s ease-in-out;
 		}
 	}
+	span:hover:after {
+		opacity: 1;
+	}
+	span.control_active:after {
+		content:"";
+		width:65px;
+		height:1px;
+		opacity: 1;
+		display: block;
+		background: $orangelight;
+		margin:2px auto 0;
+		transition: all .2s ease-in-out;
+	}
 }
+
+
 
 .industry_tag {
 		position: absolute;
@@ -1080,6 +1177,16 @@ footer {
 	}
 	
 	
+	
+/* New Slides */
+
+
+
+
+
+
+	
+	
 /* Gallery */	
 	
 
@@ -1168,6 +1275,7 @@ footer {
 		top:-59px;
 	}
 	
+/*
 	.industries_section {
 		h1.indus_title {
 			margin:200px 0 0 2%;
@@ -1194,6 +1302,50 @@ footer {
 		}
 	}
 	
+*/
+
+
+
+
+
+
+
+
+
+
+
+.residential_slider {
+	
+}
+
+.commercial_slider {
+	
+}
+
+
+
+.industry_controls {
+	bottom:-11px;
+	span {
+		padding:20px 90px 0;
+		height:60px;
+		
+		&:first-of-type {
+			
+		}
+		&:after {
+			
+		}
+	}
+	span:hover:after {
+		
+	}
+	span.control_active:after {
+		
+	}
+}
+
+
 	
 
 	
@@ -1368,6 +1520,111 @@ footer {
 
 
 
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (min-width: 1145px) {
+	
+	
+	
+	
+	/* New Slides */
+
+
+.new_slides {
+	
+	
+	
+	.new_slides_inner_wrapper {
+		height:700px;
+		.new_slides_content {
+			
+			span.subheader {
+				font-size:30px;
+			}
+			span.largeheader {
+				font-size:53px;
+			}
+			a.see_demo {
+				
+			}
+			.slider_buttons {
+				display:flex;
+				.arrow_down_wrapper {
+					
+					.arrow_down {
+						
+					}
+				}
+				.top_button {
+					
+					span {
+						
+					}
+					&:after {
+						
+					}
+				}
+				.divider {
+					
+					
+				}
+				
+			}
+		}
+		.new_slides_single {
+			height:700px;
+			video {
+				display: block;
+				min-width:100%;
+				min-height:100%;
+			}
+		}
+	}
+}
+
+
+
+
+
+/* Industries */
+
+.industries_section {
+	height:800px;
+}
+
+
+.industries_slide_wrapper {
+	height:763px;
+	.single_industires_slide {
+		background:transparent !important;
+		height:752px;
+		.inner_content {
+			max-width:1600px;
+			margin:0 auto;
+			h1.indus_title {
+			
+			}
+		}
+		video {
+			display: block;
+		}
+		.slider_dark_overlay {
+				
+		}
+		
+	}
+}
+	
+	
+	
+	
+	
+	
 	
 	
 	
