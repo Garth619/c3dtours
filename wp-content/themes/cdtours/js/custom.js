@@ -14,11 +14,15 @@ new WOW().init();
 
 jQuery('.new_slides_commercial').hide();
 
+jQuery('.residential_button').addClass('new_slides_active');
+
 
 jQuery('.commercial_button').click(function(){
 	
 	jQuery('.new_slides_commercial').fadeIn(400);
 	jQuery('.new_slides_residential').fadeOut(400);
+	jQuery(this).addClass('new_slides_active');
+	jQuery('.residential_button').removeClass('new_slides_active');
 	
 	
 });
@@ -27,6 +31,8 @@ jQuery('.residential_button').click(function(){
 	
 	jQuery('.new_slides_commercial').fadeOut(400);
 	jQuery('.new_slides_residential').fadeIn(400);
+	jQuery(this).addClass('new_slides_active');
+	jQuery('.commercial_button').removeClass('new_slides_active');
 	
 	
 });

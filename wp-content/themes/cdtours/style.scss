@@ -381,6 +381,15 @@ header {
 						width:100%;
 					}
 				}
+				.top_button.new_slides_active {
+					.arrow_down {
+						opacity: 1;
+					}
+					&:after {
+						opacity: 1;
+						width:100%;
+					}
+				}
 				.top_button {
 					display: block;
 					margin-top:2px;

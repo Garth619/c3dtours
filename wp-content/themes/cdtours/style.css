@@ -384,6 +384,15 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   width: 100%;
 }
 
+.new_slides .new_slides_inner_wrapper .new_slides_content .slider_buttons .top_button.new_slides_active .arrow_down {
+  opacity: 1;
+}
+
+.new_slides .new_slides_inner_wrapper .new_slides_content .slider_buttons .top_button.new_slides_active:after {
+  opacity: 1;
+  width: 100%;
+}
+
 .new_slides .new_slides_inner_wrapper .new_slides_content .slider_buttons .top_button {
   display: block;
   margin-top: 2px;

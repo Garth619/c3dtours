@@ -162,6 +162,8 @@
 				
 				<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay muted></video>
 				
+				<div class="new_slides_overlay"></div><!-- new_slides_overlay -->
+				
 				
 			</div><!-- new_slides_single -->
 			
