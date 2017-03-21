@@ -180,7 +180,7 @@
 			
 
 			
-			<h1>3D Gallery</h1>
+			<span class="large_header">3D Gallery</span><!-- large_header -->
 			
 			<div class="threed_gallery_slideshow">
 				
@@ -341,7 +341,7 @@
 			
 					<div class="left_col wow fadeInUp" data-wow-delay="1s">
 				
-						<h2>lorem ipsum dolor AMET CONSECTETUR</h2>
+						<h1>lorem ipsum dolor AMET CONSECTETUR</h1>
 			
 						<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
 				
@@ -349,7 +349,7 @@
 				
 					<div class="right_col wow fadeInUp" data-wow-delay="1s">
 			
-						<h3>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h3>
+						<h2>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h2>
 				
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
 				
@@ -364,7 +364,7 @@
 				
 					<div class="video_left_col wow fadeInUp" data-wow-delay="1s">
 				
-						<h3>Lorem ipsum dolor sit amet, con se&nbsp;ctetur</h3>
+						<h2>Lorem ipsum dolor sit amet, con se&nbsp;ctetur</h2>
 			
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
 						
@@ -390,17 +390,40 @@
 				
 				
 				
-				<div class="single_industires_slide" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) no-repeat scroll center top / cover ;">
+								
+				
+				
+				<div class="single_industires_slide">
 					
 					
 					<div class="inner_content">
 						
-						<h1 class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project</span></h1>
+						<span class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project 1</span></span>
 
 					</div><!-- inner_content -->
 					
-										
-					<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay></video>
+					
+					<img class="industries_slide" data-lazy="<?php bloginfo('template_directory');?>/images/1.jpg"/>				
+					
+					
+					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+					
+				</div><!-- single_industires_slide -->
+				
+				
+				
+				<div class="single_industires_slide">
+					
+					
+					<div class="inner_content">
+						
+						<span class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project 2</span></span>
+
+					</div><!-- inner_content -->
+					
+					
+					<img class="industries_slide" data-lazy="<?php bloginfo('template_directory');?>/images/2.jpg"/>				
+					
 					
 					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
 					
@@ -415,23 +438,41 @@
 			
 			<div class="industries_slide_wrapper commercial_slider">
 				
-				<div class="single_industires_slide">
+				
 					
-					<div class="single_industires_slide" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/mobileimage.jpg) no-repeat scroll center top / cover ;">
+								
+				
+				<div class="single_industires_slide">
 					
 					<div class="inner_content">
 					
-						<h1 class="indus_title">Commercial<span>Name of project</span></h1>
+						<span class="indus_title">Commercial<span>Name of project 1</span></span>
 					
 					</div>
 					
-					<video src="<?php bloginfo('template_directory');?>/videos/video.mp4" loop autoplay></video>
+					<img class="industries_slide" src="<?php bloginfo('template_directory');?>/images/3.jpg"/>
+					
+					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+					
+				</div><!-- single_industires_slide -->
+				
+				
+				
+				<div class="single_industires_slide">
+					
+					<div class="inner_content">
+					
+						<span class="indus_title">Commercial<span>Name of project 1</span></span>
+					
+					</div>
+					
+					<img class="industries_slide" src="<?php bloginfo('template_directory');?>/images/4.jpg"/>
 					
 					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
 					
 				</div><!-- single_industires_slide -->
 					
-				</div><!-- single_industires_slide -->
+				
 				
 			</div><!-- industries_slide_wrapper -->
 			
@@ -450,26 +491,44 @@
 	
 	</section><!-- industries -->
 		
-		<section id="floorplan" class="floor_plan wow fadeInUp" data-wow-delay="1s">
+		<section id="floorplan" class="floor_plan">
 			
 
-			
-			<h1>Floor Plans</h1>
-			
-			<div class="floor_plan_content">
+			<div class="floor_plan_wrapper">
 				
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor elit, sed do eiusmod&nbsp;tempor</h2>
+				<span class="large_header">Floor Plans</span><!-- large_header -->
 				
-				<ul>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-					<li><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></li>
-				</ul>
+				<div class="floor_plan_slider">
+					
+					<div class="floor_plan_single_slider">
+				
+						
+						
+						<div class="floorplan_content">
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
+							
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+ 							</ul>
+						
+						</div><!-- floorplan_content -->
+					
+					</div><!-- floor_plan_single_slider -->
+				
+				</div><!-- floor_plan_slider -->
+				
+			</div><!-- floor_plan_wrapper -->
 			
-			</div><!-- floor_plan_content -->
+			
+			
+			
+			
+			
+			
+			
 			
 		</section><!-- floor_plan -->
 		
@@ -484,7 +543,7 @@
 				
 				<div class="border_left_wrapper">
 					
-					<h1><a href="#contact">contact us</a></h1>
+					<span><a href="#contact">contact us</a></span>
 				
 				</div><!-- border_left_wrapper-->
 				

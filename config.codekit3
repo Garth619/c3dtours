@@ -9011,6 +9011,62 @@
 		"oAP": "\/wp-content\/themes\/cdtours\/header.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/cdtours\/images\/1.jpg": {
+		"ft": 16384,
+		"iS": 301248,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/1.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/1.png": {
+		"ft": 32768,
+		"iS": 6845428,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/2.jpg": {
+		"ft": 16384,
+		"iS": 268630,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/2.png": {
+		"ft": 32768,
+		"iS": 5538746,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/3.jpg": {
+		"ft": 16384,
+		"iS": 188345,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/3.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/4.jpg": {
+		"ft": 16384,
+		"iS": 851427,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/4.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/cdtours\/images\/banner.jpg": {
 		"ft": 16384,
 		"iS": 128091,
@@ -9104,6 +9160,15 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/cdtours\/images\/floorplanbg.jpg": {
+		"ft": 16384,
+		"iS": 68304,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/floorplanbg.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/cdtours\/images\/form-bg.jpg": {
 		"ft": 16384,
 		"iS": 10123,
@@ -9185,6 +9250,15 @@
 		"oAP": "\/wp-content\/themes\/cdtours\/images\/myarrow.png",
 		"oF": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/cdtours\/images\/new-check.jpg": {
+		"ft": 16384,
+		"iS": 1239,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/cdtours\/images\/new-check.jpg",
+		"oF": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/themes\/cdtours\/images\/newslide.jpg": {

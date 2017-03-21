@@ -462,7 +462,7 @@ header {
 	max-width:1200px;
 	margin:0 auto;
 	
-	h1 {
+	span.large_header {
 		font-style: normal;
 		font-weight: 300;
 		font-size:34px;
@@ -471,6 +471,7 @@ header {
 		border-left:2px solid $orangelight;
 		padding:45px 25px 10px;
 		margin:0 27px 35px;
+		display:block;
 	}
 	.threed_gallery_slideshow {
 		
@@ -547,14 +548,14 @@ header {
 		.left_col {
 			
 		}
-		h2 {
+		h1 {
 			font-size:35px;
 			font-style: normal;
 			font-weight:300;
 			text-transform: uppercase;
 			text-align: center;
 		}
-		h2:before {
+		h1:before {
 			content:"";
 			width:85px;
 			height:2px;
@@ -566,7 +567,7 @@ header {
 			display: block;
 			margin:40px auto 0;
 		}
-		h3 {
+		h2 {
 			font-size: 26px;
 			text-transform: uppercase;
 			text-align: center;
@@ -585,8 +586,8 @@ header {
 
 .threed_video_content {
 	padding:30px 30px 50px;
-	border-top: 3px solid $orangelight;
-	h3 {
+	border-top: 2px solid $orangelight;
+	h2 {
 		font-size: 26px;
 		text-transform: uppercase;
 		text-align: center;
@@ -617,11 +618,38 @@ header {
 }
 
 
+
+.residential_slider {
+	z-index:5;
+	opacity: 1;
+	visibility: visible;
+	transition: all .2s ease-in-out;
+}
+
+
+.comercial_slider {
+	opacity: 1;
+	visibility: visible;
+	transition: all .2s ease-in-out;
+}
+
+
+
+.residential_slider.myfadeout {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.comercial_slider.myfadeout {
+	opacity: 0;
+	visibility: hidden;
+}
+
 .industries_slide_wrapper {
 	top:0;
 	left:0;
 	width:100%;
-	position: absolute;
+	position: absolute !important;
 	height:500px;
 	overflow: hidden;
 	.single_industires_slide {
@@ -629,10 +657,10 @@ header {
 		height:592px;
 		width:100%;
 	
-		h1.indus_title {
+		span.indus_title {
 			font-style: normal;
 			font-weight: 300;
-			font-size:38px;
+			font-size:35px;
 			text-transform: uppercase;
 			letter-spacing:3px;
 			border-left:2px solid $orangelight;
@@ -642,18 +670,17 @@ header {
 			display: inline-block;
 			position: relative;
 			z-index:5;
+			display: block;
 			span {
 				display: block;
-				font-size:20px;
+				font-size:18px;
 			}
 		}
-		video {
-			min-width:100%;
-			min-height:100%;
+		img.industries_slide {
+			max-width:930px;
 			position: absolute;
 			top:0;
 			left:0;
-			display: none;
 		}
 		.slider_dark_overlay {
 			width:100%;
@@ -670,7 +697,34 @@ header {
 
 
 
-
+.slick-dots {
+	bottom: 60px !important;
+	li.slick-active {
+		button {
+			&:before {
+				color:#fff !important;
+				font-size: 8px !important;
+			}
+		}
+	}
+	li:hover {
+		button {
+			&:before {
+				color:#fff !important;
+			}
+		}
+	}
+	li {
+		margin:0 !important;
+		button {
+			&:before {
+				opacity: 1 !important;
+				color: $orangelight !important;
+				font-size: 8px !important;
+			}
+		}
+	}
+}
 
 
 
@@ -736,58 +790,53 @@ header {
 
 
 
-.industry_tag {
-		position: absolute;
-		top:0px;
-	}
 
 /* Floor Plan */
 
 .floor_plan {
-	padding:50px 0;
-	position: relative;
-	h1 {
-		font-style: normal;
-		font-weight: 300;
-		font-size:38px;
-		text-transform: uppercase;
-		letter-spacing:3px;
-		border-left:2px solid $orangelight;
-		padding: 45px 2px 10px 25px;
-		margin:0 0px 35px 27px;
-	}
-	.floor_plan_content {
-		padding:0 30px;
-		h2 {
-			font-size:24px;
+	background:url(images/floorplanbg.jpg) top center no-repeat;
+	background-size: cover;
+	width:100%;
+	padding:35px 25px;
+	.floor_plan_wrapper {
+		background: #fff;
+		border:1px solid #cecece;
+		padding:25px;
+		span.large_header {
 			font-style: normal;
-			font-weight:300;
-			text-align: center;
+			font-weight: 300;
+			font-size:38px;
+			text-transform: uppercase;
+			letter-spacing:3px;
+			border-left:2px solid $orangelight;
+			padding: 45px 2px 10px 25px;
+			margin:0 0px 35px 3%;
+			display: block;
 		}
-		ul {
-			list-style: none;
-			list-style-image: url(images/check.png);
-			line-height: 1;
-			width:80%;
-			margin:40px auto 0;
-			li {
-				font-size:20px;
-				margin:0 0 15px 30px;
-				span {
-					position: relative;
-					top:-6px;
-					margin-left:10px;
-					display: block;
+		.floor_plan_slider {
+			.floor_plan_single_slider {
+				.floorplan_content {
+					color:#272727;
+					font-size:22px;
+					p {
+						margin-bottom:25px;
+					}
+					ul {
+						list-style: none;
+						li {
+							margin-bottom:15px;
+							background:url(images/new-check.jpg) no-repeat scroll 0 10px;
+							list-style: none;
+							padding: 0 0 0 28px;
+						}
+					}
 				}
 			}
 		}
 	}
 }
 
-.floorplan_tag {
-	position: absolute;
-	top:0px;
-}
+
 
 
 /* Contact Us */
@@ -804,7 +853,7 @@ header {
 		width:100%;
 		.border_left_wrapper {
 			text-align: center;
-			h1 {
+			span {
 				font-family: "utopia-std",sans-serif;
 				font-size: 52px;
 				font-style: italic;
@@ -967,7 +1016,7 @@ footer {
 }
 
 .threed_gallery {
-	h1 {
+	span.large_header {
 			font-size:38px;
 		}
 	.threed_gallery_slideshow {
@@ -1000,6 +1049,46 @@ footer {
 	
 	
 }
+
+
+@media screen and (min-width: 800px) {
+	
+	
+	
+	/* Industries */
+
+.industries_section {
+	
+}
+
+
+.industries_slide_wrapper {
+	
+	.single_industires_slide {
+		
+	
+		span.indus_title {
+			font-size:38px;
+			span {
+				font-size:20px;
+			}
+		}
+		img.industries_slide {
+			max-width:3000px;
+			width:100%;
+		}
+		.slider_dark_overlay {
+			
+		}
+		
+	}
+}
+
+
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (min-width: 980px) {
@@ -1235,7 +1324,7 @@ footer {
 			overflow: hidden;
 			margin-top:30px;
 			padding-bottom:0px;
-			h3 {
+			h2 {
 				text-align: left;
 		}
 		.left_col {
@@ -1254,7 +1343,7 @@ footer {
 	.threed_video_content {
 		padding-top:60px;
 		overflow: hidden;
-		h3 {
+		h2 {
 			text-align: left;
 		}
 		img {
@@ -1367,40 +1456,10 @@ footer {
 	h1 {
 		
 	}
-	.floor_plan_content {
-		
-		h2 {
-			width:79%;
-			margin:0 auto;
-		}
-		ul {
-			width:52%;
-			li {
-				
-				span {
-					
-				}
-			}
-		}
-	}
+	
 }
 
 	
-	
-	
-	
-	
-	#floorplan {
-		max-width:1100px;
-		margin:0 auto;
-	}
-	
-	
-	
-	.floorplan_tag {
-		position: absolute;
-		top:-58px;
-	}
 	
 	/* Contact Us */
 	
@@ -1426,7 +1485,7 @@ footer {
 
 		.border_left_wrapper {
 			
-			h1 {
+			span {
 				
 				a {
 					
@@ -1603,25 +1662,21 @@ footer {
 /* Industries */
 
 .industries_section {
-	height:800px;
+	height:694px;
 }
 
 
 .industries_slide_wrapper {
-	height:763px;
+	height:683px;
 	.single_industires_slide {
-		background:transparent !important;
-		height:752px;
+		
+		height:683px;
 		.inner_content {
 			max-width:1600px;
 			margin:0 auto;
-			h1.indus_title {
 			
-			}
 		}
-		video {
-			display: block;
-		}
+		
 		.slider_dark_overlay {
 				
 		}

@@ -223,7 +223,7 @@ jQuery(".back, .contact_left h1 a").click(function() {
 
 // Industry Slides
 
-jQuery('.commercial_slider').hide();
+
 
 jQuery('.industry_residential').addClass('control_active');
 
@@ -238,8 +238,8 @@ jQuery('.industry_controls span').click(function(){
 
 jQuery('span.industry_commercial').click(function(){
 	
-	jQuery('.residential_slider').fadeOut(200);
-	jQuery('.commercial_slider').fadeIn(400);
+	jQuery('.residential_slider').addClass('myfadeout');
+	jQuery('.commercial_slider').removeClass('myfadeout');
 	
 	
 });
@@ -247,39 +247,32 @@ jQuery('span.industry_commercial').click(function(){
 
 jQuery('span.industry_residential').click(function(){
 	
-	jQuery('.residential_slider').fadeIn(400);
-	jQuery('.commercial_slider').fadeOut(200);
+	jQuery('.residential_slider').removeClass('myfadeout');
+	jQuery('.commercial_slider').addClass('myfadeout');
 	
 	
 });
 
 
 
-
-
-// https://jsfiddle.net/5sa2k2ao/1/
-
-
-/*
-jQuery('.regular').on('init', function(ev, el){
-    jQuery('video').each(function () {
-        this.play();
-    });
-});
-
-
-
-jQuery('.regular').slick({
-  
+jQuery('.residential_slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
+  arrows: false,
+	lazyLoad: 'ondemand',
+  dots:true
   
-  
-  dots: true,
-  prevArrow: false,
-  nextArrow: false
 });
-*/
+
+
+jQuery('.commercial_slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+	lazyLoad: 'ondemand',
+  dots:true
+  
+});
 
 
 
