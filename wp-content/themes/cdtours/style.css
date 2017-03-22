@@ -35,6 +35,10 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
+textarea {
+  resize: none;
+}
+
 /* Variables */
 /* Global */
 body {
@@ -764,13 +768,14 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   background: url(images/floorplanbg.jpg) top center no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 35px 25px;
+  padding: 35px 10px;
+  overflow: hidden;
 }
 
 .floor_plan .floor_plan_wrapper {
   background: #fff;
   border: 1px solid #cecece;
-  padding: 25px;
+  padding: 55px 30px;
 }
 
 .floor_plan .floor_plan_wrapper span.large_header {
@@ -781,7 +786,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   letter-spacing: 3px;
   border-left: 2px solid #efbf3e;
   padding: 45px 2px 10px 25px;
-  margin: 0 0px 35px 3%;
+  margin: 0 0px 35px 0%;
   display: block;
 }
 
@@ -805,6 +810,149 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   padding: 0 0 0 28px;
 }
 
+.pdf_wrapper {
+  padding: 35px 0;
+}
+
+.pdf_wrapper a {
+  display: block;
+  text-decoration: none;
+}
+
+.pdf_wrapper a img {
+  float: left;
+}
+
+.pdf_wrapper a span.pdf_divider {
+  width: 2px;
+  height: 70px;
+  background: #efbf3e;
+  display: block;
+  float: left;
+  position: relative;
+  top: -7px;
+  margin: 0 15px;
+}
+
+.pdf_wrapper a span.pdf_name {
+  padding-top: 10px;
+}
+
+.pdf_wrapper a span.download {
+  width: 160px;
+  margin-top: 4px;
+}
+
+.pdf_wrapper a span.download:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #efbf3e;
+  float: right;
+  position: relative;
+  top: 2px;
+}
+
+.pdf_wrapper a span.pdf_name, .pdf_wrapper a span.download {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1d1d1d;
+  display: block;
+}
+
+.floor_button_wrapper {
+  margin-top: 35px;
+}
+
+.floor_button_wrapper .floor_button {
+  background: #1d1d1d;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.floor_button_wrapper .floor_button:hover {
+  background: #efbf3e;
+  color: #1d1d1d;
+}
+
+.floor_button_wrapper .floor_button_left {
+  float: left;
+  left: -40px;
+}
+
+.floor_button_wrapper .floor_button_left:hover:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid #1d1d1d;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.floor_button_wrapper .floor_button_left:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid #efbf3e;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.floor_button_wrapper .floor_button_right {
+  float: right;
+  right: -40px;
+}
+
+.floor_button_wrapper .floor_button_right:hover:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #1d1d1d;
+  float: right;
+  margin-left: 3px;
+  position: relative;
+  top: 3px;
+}
+
+.floor_button_wrapper .floor_button_right:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #efbf3e;
+  float: right;
+  margin-left: 3px;
+  position: relative;
+  top: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
 /* Contact Us */
 .contact_left {
   padding: 120px 30px;
@@ -818,10 +966,10 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 }
 
 .contact_left .border_left_wrapper span {
-  font-family: "utopia-std",sans-serif;
   font-size: 52px;
-  font-style: italic;
+  text-transform: uppercase;
   text-transform: lowercase;
+  font-weight: 300;
   border-left: 2px solid #efbf3e;
   padding: 45px 2px 10px 25px;
   color: #fff;
@@ -850,7 +998,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 .contact_left .sub_headers a.mybutton {
   background: #efbf3e;
   display: inline-block;
-  padding: 5px 20px;
+  padding: 8px 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
@@ -858,10 +1006,18 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   font-size: 16px;
   color: #1d1d1d;
   text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.contact_left .sub_headers a.mybutton:hover {
+  background: #1d1d1d;
+  color: #fff;
 }
 
 .contact_right {
-  background: url(images/form-bg.jpg) top left no-repeat;
+  background: #1d1d1d;
   background-size: cover;
   width: 100%;
   padding: 65px 10%;
@@ -874,11 +1030,13 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 .contact_right .form_wrapper ul {
   list-style: none;
+  margin-top: 30px;
 }
 
 .contact_right .form_wrapper ul li {
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
+  position: relative;
 }
 
 .contact_right .form_wrapper ul li label {
@@ -890,10 +1048,14 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   border: none;
   text-transform: uppercase;
   font-family: "proxima-nova",sans-serif;
-  padding: 15px 10px;
+  padding: 15px 10px 15px 0;
   font-size: 14px;
   text-align: left;
   border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #616161;
+  letter-spacing: 0.6px;
+  color: #fff;
 }
 
 .contact_right .form_wrapper ul li textarea {
@@ -903,10 +1065,10 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 .contact_right .gform_description {
   color: #fff;
   font-weight: 300;
-  font-size: 21px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 30px;
   display: block;
-  font-family: "proxima-nova",sans-serif;
+  text-transform: uppercase;
 }
 
 .contact_right .gform_description a {
@@ -925,6 +1087,15 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   font-size: 16px;
   -webkit-appearance: none;
   border-radius: 0;
+  font-weight: 600;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.contact_right .gform_button:hover {
+  background: #1d1d1d;
+  color: #fff;
+  border-bottom: 1px solid #efbf3e;
 }
 
 .contact_right .leavereview_wrapper {
@@ -937,6 +1108,21 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   text-align: center;
   text-transform: uppercase;
   display: inline-block;
+}
+
+.validation_error {
+  display: none;
+}
+
+.gfield_description, .validation_message {
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  color: #efbf3e;
+  position: absolute;
+  top: 50px;
 }
 
 .back {
@@ -972,6 +1158,14 @@ footer .social_icons_wrapper img {
   margin: 0 3px;
 }
 
+@media screen and (min-width: 420px) {
+  /* Floor Plan */
+  .floor_plan {
+    padding: 65px 40px;
+  }
+}
+
+/* Media Query */
 @media screen and (min-width: 650px) {
   /* 3D Gallery */
   #demo {
@@ -1007,6 +1201,25 @@ footer .social_icons_wrapper img {
   .industries_slide_wrapper .single_industires_slide img.industries_slide {
     max-width: 3000px;
     width: 100%;
+  }
+}
+
+/* Media Query */
+@media screen and (min-width: 900px) {
+  /* Floor Plan */
+  .floor_plan {
+    padding: 120px 65px;
+  }
+  .floor_plan .floor_plan_wrapper {
+    padding: 75px 55px;
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .floor_button_wrapper .floor_button_left {
+    left: -80px;
+  }
+  .floor_button_wrapper .floor_button_right {
+    right: -80px;
   }
 }
 
@@ -1255,10 +1468,6 @@ footer .social_icons_wrapper img {
     padding: 20px 90px 0;
     height: 60px;
   }
-  /* Floor Plan */
-  .floor_plan {
-    padding: 70px 0;
-  }
   /* Contact Us */
   /* Contact Us */
   .contact_us {
@@ -1268,7 +1477,7 @@ footer .social_icons_wrapper img {
     float: left;
     width: 40%;
     padding: 0px;
-    height: 512px;
+    height: 545px;
   }
   .contact_left .inner_contact_left {
     position: relative;
@@ -1280,7 +1489,7 @@ footer .social_icons_wrapper img {
     float: right;
     width: 60%;
     padding: 0 5%;
-    height: 512px;
+    height: 545px;
   }
   .contact_right .form_wrapper .inner_form {
     padding: 65px 10px;
@@ -1295,6 +1504,9 @@ footer .social_icons_wrapper img {
   .contact_right .form_wrapper ul li#field_1_2, .contact_right .form_wrapper ul li#field_1_3 {
     float: right;
     width: 49%;
+  }
+  .contact_right .form_wrapper ul li#field_1_5 {
+    clear: both;
   }
   .contact_right .gform_button {
     float: right;

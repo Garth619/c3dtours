@@ -496,7 +496,7 @@
 
 			<div class="floor_plan_wrapper">
 				
-				<span class="large_header">Floor Plans</span><!-- large_header -->
+				<span class="large_header">AS-BUILTS GALLERY</span><!-- large_header -->
 				
 				<div class="floor_plan_slider">
 					
@@ -505,6 +505,9 @@
 						
 						
 						<div class="floorplan_content">
+							
+							
+							<p><strong>Title 1</strong></p>
 						
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
 							
@@ -513,12 +516,116 @@
 								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
 								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
  							</ul>
+ 							
+ 							<div class="pdf_wrapper">
+	 							<a href="">
+		 							
+		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
+		 							
+		 							<span class="pdf_divider"></span><!-- pdf_divider -->
+		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
+		 							<span class="download">download</span><!-- download -->
+		 							
+	 							</a>
+ 							</div><!-- pdf_wrapper -->
 						
 						</div><!-- floorplan_content -->
 					
 					</div><!-- floor_plan_single_slider -->
+					
+					
+					
+					
+					
+					<div class="floor_plan_single_slider">
+				
+						
+						
+						<div class="floorplan_content">
+							
+							
+							<p><strong>Title 2</strong></p>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
+							
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+ 							</ul>
+ 							
+ 							<div class="pdf_wrapper">
+	 							<a href="">
+		 							
+		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
+		 							
+		 							<span class="pdf_divider"></span><!-- pdf_divider -->
+		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
+		 							<span class="download">download</span><!-- download -->
+		 							
+	 							</a>
+ 							</div><!-- pdf_wrapper -->
+						
+						</div><!-- floorplan_content -->
+					
+					</div><!-- floor_plan_single_slider -->
+					
+					
+					
+					
+					
+					
+					<div class="floor_plan_single_slider">
+				
+						
+						
+						<div class="floorplan_content">
+							
+							
+							<p><strong>Title 3</strong></p>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
+							
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+ 							</ul>
+ 							
+ 							<div class="pdf_wrapper">
+	 							<a href="">
+		 							
+		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
+		 							
+		 							<span class="pdf_divider"></span><!-- pdf_divider -->
+		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
+		 							<span class="download">download</span><!-- download -->
+		 							
+	 							</a>
+ 							</div><!-- pdf_wrapper -->
+						
+						</div><!-- floorplan_content -->
+					
+					</div><!-- floor_plan_single_slider -->
+					
+					
+					
+					
+					
+					
 				
 				</div><!-- floor_plan_slider -->
+				
+				
+				<div class="floor_button_wrapper">
+				
+					<div class="floor_button_left floor_button">Prev</div><!-- floor_buttons -->
+				
+					<div class="floor_button_right floor_button">Next</div><!-- floor_buttons -->
+				
+				</div><!-- floor_button_wrapper -->
+				
+				<div style="clear:both"></div>
 				
 			</div><!-- floor_plan_wrapper -->
 			
