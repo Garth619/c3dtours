@@ -61,7 +61,7 @@
 			<div class="nav_wrap_inner">
 				
 				<ul>
-					<li><a href="tel:5555555555">555.555.5555</a></li>
+					<li><a href="tel:<?php the_field('phone_number');?>"><?php the_field('phone_number');?></a></li>
 					<li><a href="#demo">3D Gallery</a></li>
 					<li><a href="#industries">PHOTO GALLERY</a></li>
 					<li><a href="#floorplan">AS-BUILTS GALLERY</a></li>
@@ -84,7 +84,7 @@
 				<li><a href="#industries">PHOTO GALLERY</a></li>
 				<li><a href="#floorplan">AS-BUILTS GALLERY</a></li>
 				<li><a href="#contact">Contact Us</a></li>
-				<li><a href="tel:5555555555">555.555.5555</a></li>
+				<li><a href="tel:<?php the_field('phone_number');?>"><?php the_field('phone_number');?></a></li>
 			</ul>
 			
 		</nav><!-- desktop_nav -->
@@ -102,8 +102,9 @@
 			
 			<div class="new_slides_content">
 			
-			<span class="subheader">eiusmod tempor incididunt ut</span><!-- subheader -->
-			<span class="largeheader">lorem ipsum DOLOR</span><!-- subheader -->
+			
+			<span class="subheader"><?php the_field('main_banner_intro_sub_header');?></span><!-- subheader -->
+			<span class="largeheader"><?php the_field('main_banner_intro_large_header');?>R</span><!-- subheader -->
 			
 			<a class="see_demo" href="#demo">See Demo</a><!-- see_demo -->
 			
@@ -333,19 +334,18 @@
 			
 					<div class="left_col wow fadeInUp" data-wow-delay="1s">
 				
-						<h1>lorem ipsum dolor AMET CONSECTETUR</h1>
+						<h1><?php the_field('main_content_intro_header');?></h1>
 			
-						<img class="cam" src="<?php bloginfo('template_directory');?>/images/cam.jpg"/>
+						<img class="cam" src="<?php the_field('main_content_first_image');?>"/>
 				
 					</div><!-- left_col -->
 				
 					<div class="right_col wow fadeInUp" data-wow-delay="1s">
 			
-						<h2>Lorem ipsum dolor sit amet, cons ec tetur adipi sicing</h2>
+			
+						<h2><?php the_field('main_content_sub_header');?></h2>
 				
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
-				
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in. </p>
+						<?php the_field('main_content');?>
 				
 					</div><!-- right_col -->
 			
@@ -356,17 +356,15 @@
 				
 					<div class="video_left_col wow fadeInUp" data-wow-delay="1s">
 				
-						<h2>Lorem ipsum dolor sit amet, con se&nbsp;ctetur</h2>
+						<h2><?php the_field('secondary_content_sub_header');?></h2>
 			
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+						<?php the_field('secondary_content');?>
 				
 					</div><!-- left_col -->
 				
 					<div class="video_right_col wow fadeInUp" data-wow-delay="1s">
 					
-						<img class="video_image" src="<?php bloginfo('template_directory');?>/images/videoimage.png"/>
+						<img class="video_image" src="<?php the_field('secondary_content_image');?>"/>
 			
 					</div><!-- right_col -->
 			

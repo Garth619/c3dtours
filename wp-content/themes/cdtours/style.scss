@@ -327,11 +327,14 @@ header {
 			text-align: center;
 			z-index: 10;
 			padding:0 10px;
+			
+			
 			span.subheader {
 				display: block;
 				font-size:24px;
 				letter-spacing: 0.9px;
 				line-height: 26px;
+				margin-bottom:15px;
 			}
 			span.largeheader {
 				display: block;
@@ -397,7 +400,7 @@ header {
 					display: block;
 					margin-top:2px;
 					span {
-						letter-spacing:.7px;
+						letter-spacing:1.2px;
 					}
 					&:after {
 						content:"";
@@ -556,6 +559,7 @@ header {
 			font-family: 'ProximaNova-Light';
 			text-transform: uppercase;
 			text-align: center;
+			font-weight:300;
 		}
 		h1:before {
 			content:"";
@@ -575,6 +579,7 @@ header {
 			text-align: center;
 			font-family: 'ProximaNova-Light';
 			margin:40px 0 20px;
+			font-weight:300;
 		}
 		p {
 			font-size:18px;
@@ -1367,7 +1372,7 @@ footer {
 		}
 		img.industries_slide {
 			max-width:3000px;
-			width:100%;
+			width:120%;
 		}
 		.slider_dark_overlay {
 			
@@ -2092,6 +2097,142 @@ footer {
 	
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (min-width: 1500px) {
+	
+	
+	
+	/* Industries */
+
+.industries_section {
+	
+}
+
+
+.industries_slide_wrapper {
+	
+	.single_industires_slide {
+		
+	
+		span.indus_title {
+			
+			span {
+				
+			}
+		}
+		img.industries_slide {
+			max-width:3000px;
+			width:100%;
+		}
+		.slider_dark_overlay {
+			
+		}
+		
+	}
+}
+
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (min-width: 1900px) {
+	
+	
+.industries_section {
+	height: 823px;
+}
+	
+	
+.industries_slide_wrapper {
+	height:803px;
+	.single_industires_slide {
+		height: 795px;
+	
+		span.indus_title {
+			
+			span {
+				
+			}
+		}
+		img.industries_slide {
+			
+		}
+		.slider_dark_overlay {
+			
+		}
+		
+	}
+}
+
+
+
+.slick-dots {
+	
+	li.slick-active {
+		button {
+			&:before {
+				
+			}
+		}
+	}
+	li:hover {
+		button {
+			&:before {
+				
+			}
+		}
+	}
+	li {
+		
+		button {
+			&:before {
+				
+			}
+		}
+	}
+}
+
+
+
+.residential_slider {
+	
+}
+
+.commercial_slider {
+	
+}
+
+
+
+.industry_controls {
+	
+	span {
+		
+		&:first-of-type {
+			
+		}
+		&:after {
+			
+		}
+	}
+	span:hover:after {
+		
+	}
+	span.control_active:after {
+		
+	}
+}
+
+
 	
 	
 	

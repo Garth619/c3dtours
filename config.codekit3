@@ -27,6 +27,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/test.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -2471,6 +2483,12 @@
 		"oAP": "\/wp-admin\/includes\/class-wp-links-list-table.php",
 		"oF": 0
 		},
+	"\/wp-admin\/includes\/class-wp-list-table-compat.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-admin\/includes\/class-wp-list-table-compat.php",
+		"oF": 0
+		},
 	"\/wp-admin\/includes\/class-wp-list-table.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -3436,6 +3454,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-admin\/js\/min\/tags-box.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/tags-suggest.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/min\/tags-suggest-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-admin\/js\/tags-suggest.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-admin\/js\/min\/tags-suggest.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -10350,12 +10386,6 @@
 		"oAP": "\/wp-content\/themes\/cdtours\/page-gallery.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/cdtours\/page-home copy.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/cdtours\/page-home copy.php",
-		"oF": 0
-		},
 	"\/wp-content\/themes\/cdtours\/page-home.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -10892,6 +10922,73 @@
 		"oAP": "\/wp-content\/themes\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2016\/07\/cam-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 4822,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/cam-150x150.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/cam-200x198.jpeg": {
+		"ft": 16384,
+		"iS": 7679,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/cam-200x198.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/cam.jpeg": {
+		"ft": 16384,
+		"iS": 18782,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/cam.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/videoimage-150x150.png": {
+		"ft": 32768,
+		"iS": 14263,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/videoimage-150x150.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/videoimage-300x172.png": {
+		"ft": 32768,
+		"iS": 35071,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/videoimage-300x172.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/videoimage-368x198.png": {
+		"ft": 32768,
+		"iS": 785,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/videoimage-368x198.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2016\/07\/videoimage.png": {
+		"ft": 32768,
+		"iS": 1439,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/07\/videoimage.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -11150,6 +11247,12 @@
 		"oAP": "\/wp-includes\/class-wp-customize-widgets.php",
 		"oF": 0
 		},
+	"\/wp-includes\/class-wp-dependency.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-dependency.php",
+		"oF": 0
+		},
 	"\/wp-includes\/class-wp-editor.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -11166,6 +11269,24 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/class-wp-error.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-feed-cache-transient.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-feed-cache-transient.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-feed-cache.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-feed-cache.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-hook.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-hook.php",
 		"oF": 0
 		},
 	"\/wp-includes\/class-wp-http-cookie.php": {
@@ -11196,6 +11317,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/class-wp-http-proxy.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-http-requests-hooks.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-http-requests-hooks.php",
 		"oF": 0
 		},
 	"\/wp-includes\/class-wp-http-requests-response.php": {
@@ -11234,10 +11361,28 @@
 		"oAP": "\/wp-includes\/class-wp-image-editor.php",
 		"oF": 0
 		},
+	"\/wp-includes\/class-wp-list-util.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-list-util.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-locale-switcher.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-locale-switcher.php",
+		"oF": 0
+		},
 	"\/wp-includes\/class-wp-locale.php": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/class-wp-locale.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-matchesmapregex.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-matchesmapregex.php",
 		"oF": 0
 		},
 	"\/wp-includes\/class-wp-meta-query.php": {
@@ -11282,6 +11427,12 @@
 		"oAP": "\/wp-includes\/class-wp-post.php",
 		"oF": 0
 		},
+	"\/wp-includes\/class-wp-query.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-query.php",
+		"oF": 0
+		},
 	"\/wp-includes\/class-wp-rewrite.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -11298,6 +11449,24 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/class-wp-roles.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-session-tokens.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-session-tokens.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-simplepie-file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-simplepie-file.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-simplepie-sanitize-kses.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-simplepie-sanitize-kses.php",
 		"oF": 0
 		},
 	"\/wp-includes\/class-wp-site-query.php": {
@@ -11318,6 +11487,12 @@
 		"oAP": "\/wp-includes\/class-wp-tax-query.php",
 		"oF": 0
 		},
+	"\/wp-includes\/class-wp-taxonomy.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-taxonomy.php",
+		"oF": 0
+		},
 	"\/wp-includes\/class-wp-term-query.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -11330,10 +11505,28 @@
 		"oAP": "\/wp-includes\/class-wp-term.php",
 		"oF": 0
 		},
+	"\/wp-includes\/class-wp-text-diff-renderer-inline.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-text-diff-renderer-inline.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-text-diff-renderer-table.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-text-diff-renderer-table.php",
+		"oF": 0
+		},
 	"\/wp-includes\/class-wp-theme.php": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/class-wp-theme.php",
+		"oF": 0
+		},
+	"\/wp-includes\/class-wp-user-meta-session-tokens.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/class-wp-user-meta-session-tokens.php",
 		"oF": 0
 		},
 	"\/wp-includes\/class-wp-user-query.php": {
@@ -11497,6 +11690,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/wp-includes\/css\/buttons.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-includes\/css\/customize-preview-rtl.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-includes\/css\/customize-preview-rtl-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-includes\/css\/customize-preview-rtl.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-includes\/css\/customize-preview-rtl.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -11792,6 +12005,12 @@
 		"oAP": "\/wp-includes\/customize\/class-wp-customize-background-image-setting.php",
 		"oF": 0
 		},
+	"\/wp-includes\/customize\/class-wp-customize-background-position-control.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/customize\/class-wp-customize-background-position-control.php",
+		"oF": 0
+		},
 	"\/wp-includes\/customize\/class-wp-customize-color-control.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -11802,6 +12021,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/customize\/class-wp-customize-cropped-image-control.php",
+		"oF": 0
+		},
+	"\/wp-includes\/customize\/class-wp-customize-custom-css-setting.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/customize\/class-wp-customize-custom-css-setting.php",
 		"oF": 0
 		},
 	"\/wp-includes\/customize\/class-wp-customize-filter-setting.php": {
@@ -12869,6 +13094,66 @@
 		"oAP": "\/wp-includes\/images\/xit.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-base64.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-base64.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-client.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-client.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-clientmulticall.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-clientmulticall.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-date.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-date.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-error.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-introspectionserver.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-introspectionserver.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-message.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-message.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-request.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-request.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-server.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-server.php",
+		"oF": 0
+		},
+	"\/wp-includes\/IXR\/class-IXR-value.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/IXR\/class-IXR-value.php",
+		"oF": 0
 		},
 	"\/wp-includes\/js\/admin-bar.js": {
 		"ft": 64,
@@ -15191,6 +15476,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-includes\/js\/wp-api.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/min\/wp-api-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/wp-api.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/min\/wp-api.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-includes\/js\/wp-auth-check.js": {
 		"ft": 64,
 		"mi": 1,
@@ -15223,6 +15526,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-includes\/js\/min\/wp-backbone.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/wp-custom-header.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/min\/wp-custom-header-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-includes\/js\/wp-custom-header.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-includes\/js\/min\/wp-custom-header.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -16077,6 +16398,102 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-includes\/rest-api\/class-wp-rest-server.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-attachments-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-attachments-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-comments-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-comments-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-statuses-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-statuses-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-types-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-post-types-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-posts-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-posts-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-revisions-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-revisions-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-settings-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-settings-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-taxonomies-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-taxonomies-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-terms-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-terms-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/endpoints\/class-wp-rest-users-controller.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/endpoints\/class-wp-rest-users-controller.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/fields\/class-wp-rest-comment-meta-fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/fields\/class-wp-rest-comment-meta-fields.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/fields\/class-wp-rest-meta-fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/fields\/class-wp-rest-meta-fields.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/fields\/class-wp-rest-post-meta-fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/fields\/class-wp-rest-post-meta-fields.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/fields\/class-wp-rest-term-meta-fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/fields\/class-wp-rest-term-meta-fields.php",
+		"oF": 0
+		},
+	"\/wp-includes\/rest-api\/fields\/class-wp-rest-user-meta-fields.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-includes\/rest-api\/fields\/class-wp-rest-user-meta-fields.php",
 		"oF": 0
 		},
 	"\/wp-includes\/revision.php": {
