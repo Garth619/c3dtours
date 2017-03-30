@@ -879,7 +879,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   font-family: 'ProximaNova-Semibold';
   font-size: 15px;
   letter-spacing: 1px;
-  padding: 6px 12px;
+  padding: 9px 15px;
   position: relative;
   cursor: pointer;
   -webkit-transition: all .2s ease-in-out;
@@ -906,7 +906,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   float: left;
   margin-right: 5px;
   position: relative;
-  top: 3px;
+  top: 1px;
 }
 
 .floor_button_wrapper .floor_button_left:after {
@@ -919,7 +919,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   float: left;
   margin-right: 5px;
   position: relative;
-  top: 3px;
+  top: 1px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -939,7 +939,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   float: right;
   margin-left: 3px;
   position: relative;
-  top: 3px;
+  top: 1px;
 }
 
 .floor_button_wrapper .floor_button_right:after {
@@ -952,7 +952,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   float: right;
   margin-left: 3px;
   position: relative;
-  top: 3px;
+  top: 1px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -1490,7 +1490,7 @@ footer .social_icons_wrapper img {
   .contact_right {
     float: right;
     width: 60%;
-    padding: 0 5%;
+    padding: 22px 5%;
     height: 545px;
   }
   .contact_right .form_wrapper .inner_form {

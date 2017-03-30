@@ -285,7 +285,7 @@ jQuery('.commercial_slider').slick({
 jQuery('.floor_plan_slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  arrows: false,
+  arrows: true,
   fade: true,
   prevArrow: ".floor_button_left",
   nextArrow: ".floor_button_right",

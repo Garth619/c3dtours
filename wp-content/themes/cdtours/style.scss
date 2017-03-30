@@ -904,7 +904,7 @@ header {
 	font-family: 'ProximaNova-Semibold';
 	font-size:15px;
 	letter-spacing: 1px;
-	padding:6px 12px;
+	padding: 9px 15px;
 	position: relative;
 	cursor: pointer;
 	transition: all .2s ease-in-out;
@@ -928,7 +928,7 @@ header {
 			float:left;
 			margin-right:5px;
 			position: relative;
-			top:3px;
+			top:1px;
 		}
 	}
 	&:after {
@@ -941,7 +941,7 @@ header {
 		float:left;
 		margin-right:5px;
 		position: relative;
-		top:3px;
+		top:1px;
 		transition: all .2s ease-in-out;
 	}
 }
@@ -960,7 +960,7 @@ header {
 		float:right;
 		margin-left:3px;
 		position: relative;
-		top:3px;
+		top:1px;
 	}
 	}
 	&:after {
@@ -973,7 +973,7 @@ header {
 		float:right;
 		margin-left:3px;
 		position: relative;
-		top:3px;
+		top:1px;
 		transition: all .2s ease-in-out;
 	}
 }
@@ -1909,7 +1909,7 @@ footer {
 	.contact_right {
 		float:right;
 		width:60%;
-		padding:0 5%;
+		padding:22px 5%;
 		height:545px;
 		.form_wrapper {
 			.inner_form {
