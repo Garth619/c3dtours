@@ -104,7 +104,7 @@
 			
 			
 			<span class="subheader"><?php the_field('main_banner_intro_sub_header');?></span><!-- subheader -->
-			<span class="largeheader"><?php the_field('main_banner_intro_large_header');?>R</span><!-- subheader -->
+			<span class="largeheader"><?php the_field('main_banner_intro_large_header');?></span><!-- subheader -->
 			
 			<a class="see_demo" href="#demo">See Demo</a><!-- see_demo -->
 			
@@ -175,157 +175,95 @@
 			
 			<span class="large_header">3D Gallery</span><!-- large_header -->
 			
-			<div class="threed_gallery_slideshow">
-				
-				
-				<div class="gallery_slide">
-				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-				<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
- 					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
-			
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-				
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe>
-				
-				</div><!-- gallery_slide -->
-				
-				<div class="gallery_slide">
-					
-					<iframe src="https://my.matterport.com/show/?m=PAPVAMnox7k" frameborder="0" allowfullscreen></iframe> 
-				
-				</div><!-- gallery_slide -->
-				
-				
-				
-				
-				
-			</div><!-- threed_gallery_slideshow -->
 			
 			
 			
-			<div class="gallery_tabs">
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-							
-						
-						<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-						
-						<img src="<?php bloginfo('template_directory');?>/images/house.jpg"/>
-						
-						
-						
-						</div><!-- inner_gallery_tab -->
-						
-					</div><!-- single_gallery_tab -->
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-							
-							<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/restuarant.jpg"/>
-						
-						</div><!-- inner_gallery_tab -->
-						
-					</div><!-- single_gallery_tab -->
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-							
-							<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/brew.jpg"/>
-						
-						</div>
-						
-					</div><!-- single_gallery_tab -->
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-							
-							<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/comm.jpg"/>
-						
-						</div>
-						
-					</div><!-- single_gallery_tab -->
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-							
-							<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-						<img src="<?php bloginfo('template_directory');?>/images/comm2.jpg"/>
-						
-						</div>
-						
-					</div><!-- single_gallery_tab -->
-					
-					<div class="single_gallery_tab">
-						
-						<div class="inner_gallery_tab">
-						
-							<div class="gallery_overlay">
-							
-							<span class="content">Title Goes Here</span><!-- content -->
-						
-						</div><!-- gallery_overlay -->
-						
-							<img class="" src="<?php bloginfo('template_directory');?>/images/comm3.jpg"/>
-						
-						</div>
-						
-					</div><!-- single_gallery_tab -->
-					
-				</div><!-- gallery_tabs -->
 			
+			<?php $posts = get_field('3d_gallery');
+			
+			if( $posts ): ?>
+			    
+			    
+			    <div class="threed_gallery_slideshow">
+			    
+			    
+			    
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			        <?php setup_postdata($post); ?>
+			        
+			        
+			        <div class="gallery_slide">
+				
+								<?php the_field('iframe_code');?>
+				
+							</div><!-- gallery_slide -->
+			        
+			        
+			        
+			        
+			    <?php endforeach; ?>
+			    
+			    
+			    
+			    
+			    </div><!-- threed_gallery_slideshow -->
+			    
+			    
+			    
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>
+			
+	
+	
+			<?php $posts = get_field('3d_gallery');
+			
+			if( $posts ): ?>
+			    
+			    
+			    
+			    <div class="gallery_tabs">
+			    
+			    
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			    <?php setup_postdata($post); ?>
+			        
+			        
+			        
+			        <div class="single_gallery_tab">
+						
+								<div class="inner_gallery_tab">
+							
+						
+									<div class="gallery_overlay">
+							
+										<span class="content"><?php the_title();?></span><!-- content -->
+						
+									</div><!-- gallery_overlay -->
+						
+						
+									<img src="<?php the_field('3d_gallery_image');?>"/>
+						
+						
+								</div><!-- inner_gallery_tab -->
+						
+						</div><!-- single_gallery_tab -->
+			        
+			        
+			        
+			    <?php endforeach; ?>
+			    
+			    
+			    
+			    </div><!-- gallery_tabs -->
+			    
+			    
+			    
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>
+			
+			
+			
+						
 			</section><!-- 3D Gallery -->
 			
 			<section class="more_info_content">
