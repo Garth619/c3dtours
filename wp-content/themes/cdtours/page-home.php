@@ -375,96 +375,87 @@
 		<section id="industries" class="industries_section">
 			
 			
+			<?php if(get_field('residential_slider')): ?>
 			
-			<div class="industries_slide_wrapper residential_slider">
-				
-				
-				
-								
-				
-				
-				<div class="single_industires_slide">
+				<div class="industries_slide_wrapper residential_slider">
+			 
+				<?php while(has_sub_field('residential_slider')): ?>
+			 
+
+
+							<div class="single_industires_slide">
 					
 					
-					<div class="inner_content">
+								<div class="inner_content">
 						
-						<span class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project 1</span></span>
+									<span class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span><?php the_sub_field('project_name');?></span></span>
 
-					</div><!-- inner_content -->
+								</div><!-- inner_content -->
 					
 					
-					<img class="industries_slide" data-lazy="<?php bloginfo('template_directory');?>/images/1.jpg"/>				
+								<img class="industries_slide" data-lazy="<?php the_sub_field('project_image');?>"/>				
 					
 					
-					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+							<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
 					
-				</div><!-- single_industires_slide -->
-				
-				
-				
-				<div class="single_industires_slide">
-					
-					
-					<div class="inner_content">
 						
-						<span class="indus_title wow fadeInUp" data-wow-delay="1s">Residential<span>Name of project 2</span></span>
+						</div><!-- single_industires_slide -->
+			    
+				<?php endwhile; ?>
+				
+				</div><!-- industries_slide_wrapper -->
+			 
+			<?php endif; ?>
+			
+			
+			
+			
+			
+			
+			
+			<?php if(get_field('commercial_slider')): ?>
+			
+				<div class="industries_slide_wrapper commercial_slider">
+			 
+				<?php while(has_sub_field('commercial_slider')): ?>
+			 
 
-					</div><!-- inner_content -->
-					
-					
-					<img class="industries_slide" data-lazy="<?php bloginfo('template_directory');?>/images/2.jpg"/>				
-					
-					
-					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
-					
-				</div><!-- single_industires_slide -->
 
+							<div class="single_industires_slide">
+					
+					
+								<div class="inner_content">
+						
+									<span class="indus_title wow fadeInUp" data-wow-delay="1s">Commercial<span><?php the_sub_field('project_name');?></span></span>
+
+								</div><!-- inner_content -->
+					
+					
+								<img class="industries_slide" data-lazy="<?php the_sub_field('project_image');?>"/>				
+					
+					
+							<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
+					
+						
+						</div><!-- single_industires_slide -->
+			    
+				<?php endwhile; ?>
+				
+				</div><!-- industries_slide_wrapper -->
+			 
+			<?php endif; ?>
 			
-		
-		</div><!-- industries_slide_wrapper -->
 			
 			
 			
 			
-			<div class="industries_slide_wrapper commercial_slider">
-				
-				
-					
-								
-				
-				<div class="single_industires_slide">
-					
-					<div class="inner_content">
-					
-						<span class="indus_title">Commercial<span>Name of project 1</span></span>
-					
-					</div>
-					
-					<img class="industries_slide" src="<?php bloginfo('template_directory');?>/images/3.jpg"/>
-					
-					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
-					
-				</div><!-- single_industires_slide -->
-				
-				
-				
-				<div class="single_industires_slide">
-					
-					<div class="inner_content">
-					
-						<span class="indus_title">Commercial<span>Name of project 1</span></span>
-					
-					</div>
-					
-					<img class="industries_slide" src="<?php bloginfo('template_directory');?>/images/4.jpg"/>
-					
-					<div class="slider_dark_overlay"></div><!-- slider_dark_overlay -->
-					
-				</div><!-- single_industires_slide -->
-					
-				
-				
-			</div><!-- industries_slide_wrapper -->
+			
+			
+						
+			
+			
+			
+			
 			
 			
 			
@@ -488,124 +479,50 @@
 				
 				<span class="large_header">AS-BUILTS GALLERY</span><!-- large_header -->
 				
-				<div class="floor_plan_slider">
-					
-					<div class="floor_plan_single_slider">
 				
-						
-						
-						<div class="floorplan_content">
+					
+					
+					<?php if(get_field('as_builds_gallery')): ?>
+					
+						<div class="floor_plan_slider">
+					 
+						<?php while(has_sub_field('as_builds_gallery')): ?>
+					 
+							<div class="floor_plan_single_slider">
+				
+								<div class="floorplan_content">
 							
 							
-							<p><strong>Title 1</strong></p>
+									<p><strong><?php the_sub_field('title');?></strong></p>
+									
+									
+									<?php the_sub_field('content');?>
 						
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
 							
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
- 							</ul>
+									<div class="pdf_wrapper">
+									
+										<a href="<?php the_sub_field('pdf_download');?>" target="_blank">
+		 							
+											<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
+		 							
+											<span class="pdf_divider"></span><!-- pdf_divider -->
+											<span class="pdf_name"><?php the_sub_field('pdf_title');?></span><!-- pdf_name -->
+											<span class="download">download</span><!-- download -->
+		 							
+	 									</a>
  							
- 							<div class="pdf_wrapper">
-	 							<a href="">
-		 							
-		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
-		 							
-		 							<span class="pdf_divider"></span><!-- pdf_divider -->
-		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
-		 							<span class="download">download</span><!-- download -->
-		 							
-	 							</a>
  							</div><!-- pdf_wrapper -->
 						
 						</div><!-- floorplan_content -->
 					
 					</div><!-- floor_plan_single_slider -->
-					
-					
-					
-					
-					
-					<div class="floor_plan_single_slider">
-				
+					    
+						<?php endwhile; ?>
 						
-						
-						<div class="floorplan_content">
-							
-							
-							<p><strong>Title 2</strong></p>
-						
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
-							
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
- 							</ul>
- 							
- 							<div class="pdf_wrapper">
-	 							<a href="">
-		 							
-		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
-		 							
-		 							<span class="pdf_divider"></span><!-- pdf_divider -->
-		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
-		 							<span class="download">download</span><!-- download -->
-		 							
-	 							</a>
- 							</div><!-- pdf_wrapper -->
-						
-						</div><!-- floorplan_content -->
-					
-					</div><!-- floor_plan_single_slider -->
-					
-					
-					
-					
-					
-					
-					<div class="floor_plan_single_slider">
-				
-						
-						
-						<div class="floorplan_content">
-							
-							
-							<p><strong>Title 3</strong></p>
-						
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor elit, sed do eiusmod tempor</p>
-							
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
- 							</ul>
- 							
- 							<div class="pdf_wrapper">
-	 							<a href="">
-		 							
-		 							<img src="<?php bloginfo('template_directory');?>/images/pdf.jpg"/>
-		 							
-		 							<span class="pdf_divider"></span><!-- pdf_divider -->
-		 							<span class="pdf_name">em ipsum dolor</span><!-- pdf_name -->
-		 							<span class="download">download</span><!-- download -->
-		 							
-	 							</a>
- 							</div><!-- pdf_wrapper -->
-						
-						</div><!-- floorplan_content -->
-					
-					</div><!-- floor_plan_single_slider -->
-					
-					
-					
-					
-					
-					
-				
-				</div><!-- floor_plan_slider -->
-				
+						</div><!-- floor_plan_slider -->
+					 
+					<?php endif; ?>
+
 				
 				<div class="floor_button_wrapper">
 				
@@ -688,7 +605,7 @@
 		
 		<footer>
 			
-			<span>copyright VERBIAGE</span>
+			<span><?php the_field('copyright_verbiage');?></span>
 			
 			<div class="social_icons_wrapper">
 			
