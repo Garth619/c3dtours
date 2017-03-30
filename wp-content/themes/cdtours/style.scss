@@ -42,7 +42,7 @@ $black:#1d1d1d;
 /* Global */
 
 body {
-	font-family: "proxima-nova",sans-serif;
+	font-family: 'ProximaNova-Regular';
 	font-weight:300;
 	font-style: normal;
 	color:$black;
@@ -193,7 +193,7 @@ header {
 				}
 				a.demo_button {
 					background: $orangelight;
-					font-weight:400;
+					font-family: 'ProximaNova-Semibold';
 					text-transform: uppercase;
 					padding:4px 25px;
 					font-size:18px;
@@ -220,7 +220,7 @@ header {
 			.slide_tabs_title {
 				color:#717171;
 				text-transform: uppercase;
-				font-weight:400;
+				font-family: 'ProximaNova-Semibold';
 				letter-spacing:2px;
 				display: inline-block;
 				padding:13px 0;
@@ -323,7 +323,7 @@ header {
 			top: 53%;
 			transform: translateY(-50%);
 			color:#fff;
-			font-weight:600;
+			font-family: 'ProximaNova-Semibold';
 			text-align: center;
 			z-index: 10;
 			padding:0 10px;
@@ -466,7 +466,7 @@ header {
 	
 	span.large_header {
 		font-style: normal;
-		font-weight: 300;
+		font-family: 'ProximaNova-Light';
 		font-size:34px;
 		text-transform: uppercase;
 		letter-spacing:3px;
@@ -553,7 +553,7 @@ header {
 		h1 {
 			font-size:35px;
 			font-style: normal;
-			font-weight:300;
+			font-family: 'ProximaNova-Light';
 			text-transform: uppercase;
 			text-align: center;
 		}
@@ -573,12 +573,13 @@ header {
 			font-size: 26px;
 			text-transform: uppercase;
 			text-align: center;
-			font-weight:300;
+			font-family: 'ProximaNova-Light';
 			margin:40px 0 20px;
 		}
 		p {
 			font-size:18px;
 			margin-bottom:25px;
+			line-height:26px;
 			&:last-of-type {
 				margin-bottom: 0;
 			}
@@ -595,10 +596,12 @@ header {
 		text-align: center;
 		font-weight:300;
 		margin:20px 0 20px;
+		font-family: 'ProximaNova-Light';
 	}
 	p {
 		font-size:18px;
 		margin-bottom:25px;
+		line-height:26px;
 	}
 	img {
 		width:100%;
@@ -661,7 +664,7 @@ header {
 	
 		span.indus_title {
 			font-style: normal;
-			font-weight: 300;
+			font-family: 'ProximaNova-Light';
 			font-size:35px;
 			text-transform: uppercase;
 			letter-spacing:3px;
@@ -760,7 +763,8 @@ header {
 		cursor: pointer;
 		border-right:1px solid #484848;
 		transition: all .2s ease-in-out;
-		font-weight:600;
+		font-family: 'ProximaNova-Semibold';
+		letter-spacing: 1.5px;
 		&:first-of-type {
 			border-left:1px solid #484848;
 		}
@@ -807,7 +811,7 @@ header {
 		padding:55px 30px;
 		span.large_header {
 			font-style: normal;
-			font-weight: 300;
+			font-family: 'ProximaNova-Light';
 			font-size:38px;
 			text-transform: uppercase;
 			letter-spacing:3px;
@@ -880,7 +884,7 @@ header {
 		span.pdf_name, span.download {
 			font-size:13px;
 			text-transform: uppercase;
-			font-weight: 600;
+			font-family: 'ProximaNova-Semibold';
 			color:$black;
 			display: block;
 			
@@ -897,7 +901,7 @@ header {
 	color:#fff;
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight:600;
+	font-family: 'ProximaNova-Semibold';
 	font-size:15px;
 	letter-spacing: 1px;
 	padding:6px 12px;
@@ -1022,11 +1026,11 @@ header {
 				text-transform: uppercase;
 				letter-spacing: 2px;
 				cursor: pointer;
-				font-weight:400;
+				font-family: 'ProximaNova-Semibold';
 				font-size: 16px;
 				color: $black;
 				text-decoration: none;
-				font-weight: 600;
+				
 				transition: all .2s ease-in-out;
 				&:hover {
 					background: $black;
@@ -1063,7 +1067,7 @@ header {
 						width:100%;
 						border: none;
 						text-transform: uppercase;
-						font-family: "proxima-nova",sans-serif;
+						font-family: 'ProximaNova-Regular';
 						padding:15px 10px 15px 0;
 						font-size: 14px;
 						text-align: left;
@@ -1103,11 +1107,11 @@ header {
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			cursor: pointer;
-			font-weight:400;
+			font-family: 'ProximaNova-Semibold';
 			font-size: 16px;
 			-webkit-appearance: none;
 			border-radius: 0;
-			font-weight: 600;
+			
 			transition: all .2s ease-in-out;
 			&:hover {
 				background: $black;
@@ -1532,8 +1536,8 @@ footer {
 						border-right:1px solid #484848;
 						display: block;
 						width:100%;
-						padding: 15px;
-						font-weight: 600;
+						padding: 15px 15px 17px;
+						font-family: 'ProximaNova-Semibold';
 						&:before {
 							content:"";
 							width:0px;
@@ -1659,7 +1663,7 @@ footer {
 				}
 				a.demo_button {
 					background: $orangelight;
-					font-weight:400;
+					font-family: 'ProximaNova-Semibold';
 					text-transform: uppercase;
 					padding:4px 25px;
 					font-size:18px;

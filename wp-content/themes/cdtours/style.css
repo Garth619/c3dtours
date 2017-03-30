@@ -42,7 +42,7 @@ textarea {
 /* Variables */
 /* Global */
 body {
-  font-family: "proxima-nova",sans-serif;
+  font-family: 'ProximaNova-Regular';
   font-weight: 300;
   font-style: normal;
   color: #1d1d1d;
@@ -199,7 +199,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 #mobileslides .top_slide .blue_overlay a.demo_button {
   background: #efbf3e;
-  font-weight: 400;
+  font-family: 'ProximaNova-Semibold';
   text-transform: uppercase;
   padding: 4px 25px;
   font-size: 18px;
@@ -225,7 +225,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 .slide_tabs_wrapper .slide_tabs .slide_tabs_title {
   color: #717171;
   text-transform: uppercase;
-  font-weight: 400;
+  font-family: 'ProximaNova-Semibold';
   letter-spacing: 2px;
   display: inline-block;
   padding: 13px 0;
@@ -309,7 +309,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   color: #fff;
-  font-weight: 600;
+  font-family: 'ProximaNova-Semibold';
   text-align: center;
   z-index: 10;
   padding: 0 10px;
@@ -464,7 +464,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 .threed_gallery span.large_header {
   font-style: normal;
-  font-weight: 300;
+  font-family: 'ProximaNova-Light';
   font-size: 34px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -537,7 +537,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 .more_info_content .threed_lower_content h1 {
   font-size: 35px;
   font-style: normal;
-  font-weight: 300;
+  font-family: 'ProximaNova-Light';
   text-transform: uppercase;
   text-align: center;
 }
@@ -560,13 +560,14 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   font-size: 26px;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
+  font-family: 'ProximaNova-Light';
   margin: 40px 0 20px;
 }
 
 .more_info_content .threed_lower_content p {
   font-size: 18px;
   margin-bottom: 25px;
+  line-height: 26px;
 }
 
 .more_info_content .threed_lower_content p:last-of-type {
@@ -584,11 +585,13 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   text-align: center;
   font-weight: 300;
   margin: 20px 0 20px;
+  font-family: 'ProximaNova-Light';
 }
 
 .more_info_content .threed_video_content p {
   font-size: 18px;
   margin-bottom: 25px;
+  line-height: 26px;
 }
 
 .more_info_content .threed_video_content img {
@@ -645,7 +648,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 .industries_slide_wrapper .single_industires_slide span.indus_title {
   font-style: normal;
-  font-weight: 300;
+  font-family: 'ProximaNova-Light';
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -728,7 +731,8 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   border-right: 1px solid #484848;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  font-weight: 600;
+  font-family: 'ProximaNova-Semibold';
+  letter-spacing: 1.5px;
 }
 
 .industry_controls span:first-of-type {
@@ -780,7 +784,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 
 .floor_plan .floor_plan_wrapper span.large_header {
   font-style: normal;
-  font-weight: 300;
+  font-family: 'ProximaNova-Light';
   font-size: 38px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -858,7 +862,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
 .pdf_wrapper a span.pdf_name, .pdf_wrapper a span.download {
   font-size: 13px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-family: 'ProximaNova-Semibold';
   color: #1d1d1d;
   display: block;
 }
@@ -872,7 +876,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 600;
+  font-family: 'ProximaNova-Semibold';
   font-size: 15px;
   letter-spacing: 1px;
   padding: 6px 12px;
@@ -1002,11 +1006,10 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  font-weight: 400;
+  font-family: 'ProximaNova-Semibold';
   font-size: 16px;
   color: #1d1d1d;
   text-decoration: none;
-  font-weight: 600;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -1047,7 +1050,7 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   width: 100%;
   border: none;
   text-transform: uppercase;
-  font-family: "proxima-nova",sans-serif;
+  font-family: 'ProximaNova-Regular';
   padding: 15px 10px 15px 0;
   font-size: 14px;
   text-align: left;
@@ -1083,11 +1086,10 @@ header .mobile_nav_wrapper.open .mobile_bars:last-of-type {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  font-weight: 400;
+  font-family: 'ProximaNova-Semibold';
   font-size: 16px;
   -webkit-appearance: none;
   border-radius: 0;
-  font-weight: 600;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -1265,8 +1267,8 @@ footer .social_icons_wrapper img {
     border-right: 1px solid #484848;
     display: block;
     width: 100%;
-    padding: 15px;
-    font-weight: 600;
+    padding: 15px 15px 17px;
+    font-family: 'ProximaNova-Semibold';
   }
   header .desktop_nav ul li a:before {
     content: "";
@@ -1365,7 +1367,7 @@ footer .social_icons_wrapper img {
   }
   #desktopslides .top_slide .blue_overlay a.demo_button {
     background: #efbf3e;
-    font-weight: 400;
+    font-family: 'ProximaNova-Semibold';
     text-transform: uppercase;
     padding: 4px 25px;
     font-size: 18px;
